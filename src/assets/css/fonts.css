@@ -1,0 +1,39 @@
+@font-face {
+    font-family: "SF Pro Text";
+    src: url("./fonts/SF-Pro-Text-Black.otf");
+}
+
+@font-face {
+    font-family: "SF Pro Text";
+    src: url("./fonts/SF-Pro-Text-Bold.otf")
+}
+
+@font-face {
+    font-family: "SF Pro Text";
+    src: url("./fonts/SF-Pro-Text-Heavy.otf")
+}
+
+@font-face {
+    font-family: "SF Pro Text";
+    src: url("./fonts/SF-Pro-Text-Light.otf")
+}
+
+@font-face {
+    font-family: "SF Pro Text";
+    src: url("./fonts/SF-Pro-Text-Medium.otf")
+}
+
+@font-face {
+    font-family: "SF Pro Text";
+    src: url("./fonts/SF-Pro-Text-Semibold.otf")
+}
+
+@font-face {
+    font-family: "SF Pro Text";
+    src: url("./fonts/SF-Pro-Text-Thin.otf")
+}
+
+@font-face {
+    font-family: "SF Pro Text";
+    src: url("./fonts/SF-Pro-Text-Ultralight.otf")
+}

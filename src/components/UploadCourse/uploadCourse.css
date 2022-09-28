@@ -1,0 +1,281 @@
+.upload-course h1 {
+  font-family: "SF Pro Text";
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 43px;
+  color: #1c1c1c;
+  margin-bottom: 44px;
+}
+
+.upload-course {
+  margin-top: 60px;
+}
+
+.upload-course .css-1h9z7r5-MuiButtonBase-root-MuiTab-root {
+  margin-top: 25px !important;
+  padding-bottom: 30px !important;
+}
+
+.upload-course .button-upload {
+  width: 100%;
+  height: 70px;
+  border-radius: 15px;
+  background-color: transparent;
+  border: 2px solid #d9d9d9;
+  margin-bottom: 44px;
+  cursor: pointer;
+  position: relative;
+}
+
+.module .button-upload {
+  margin-bottom: 0;
+}
+
+.upload-course .button-upload label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 11;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.upload-course .button-upload input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  visibility: hidden;
+}
+
+.upload-course .button-upload:hover {
+  border: 2px solid black;
+}
+
+.upload-course .button-upload:focus {
+  border: 2px solid #006aff;
+}
+
+.upload-course .mr-10 {
+  margin-right: 10px;
+}
+
+.upload-course .miniTitle {
+  font-family: "SF Pro Text";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #1c1c1c;
+  margin-bottom: 20px;
+}
+
+.upload-course .mb-0 {
+  margin-bottom: 0 !important;
+}
+
+.upload-course .mt-30 {
+  margin-top: 30px;
+}
+
+.upload-course textarea {
+  width: 100%;
+  border-radius: 15px;
+  margin-bottom: 30px;
+  border: 2px solid #d9d9d9;
+  padding: 16px;
+  font-family: "SF Pro Text";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  max-width: 100%;
+  min-width: 100%;
+  color: #1c1c1c;
+}
+
+.upload-course .MuiOutlinedInput-notchedOutline {
+  height: auto !important;
+}
+
+.upload-course .addModule {
+  text-align: center;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 600;
+  color: rgba(0, 106, 255, 1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.upload-course .addModule svg {
+  margin-right: 25px;
+}
+
+.upload-course .sendData {
+  text-align: center;
+  margin: auto;
+}
+
+.upload-course .addVideoButton {
+  color: #006aff;
+  border-color: #006aff;
+  cursor: pointer;
+}
+
+.upload-course .addVideoButton:hover {
+  color: #1c1c1c;
+}
+
+.css-1vbj9n8-MuiFormLabel-root-MuiInputLabel-root {
+  top: 50% !important;
+  left: 15px !important;
+  transform: translateY(-50%) !important;
+}
+
+.mb-0 {
+  margin-bottom: 0 !important;
+}
+
+.select .inputLabel {
+  top: 7px !important;
+}
+
+.select .MuiOutlinedInput-input {
+  padding-top: 22px !important;
+}
+
+.select .MuiSvgIcon-fontSizeMedium {
+  margin-top: -11px !important;
+}
+
+.required {
+  position: absolute;
+  right: 25px;
+  top: 25px;
+  width: 20px;
+  z-index: 99;
+}
+
+.relative {
+  position: relative !important;
+}
+
+.select .css-1in441m {
+  width: 50px;
+}
+
+.upload-course .btn-next {
+  padding: 15px 30px;
+  border-radius: 15px;
+  text-align: center;
+  border: none;
+  outline: none;
+  background-color: #80b5ff;
+  color: white;
+  font-size: 16px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: all 0.2s linear;
+}
+
+.upload-course .btn-next:hover {
+  background-color: #006aff;
+}
+
+.upload-course .bg-disabled {
+  background-color: #c5c5c5;
+}
+
+@media screen and (max-width: 576px) {
+  .upload-course {
+    margin-top: 50px;
+  }
+
+  .upload-course .css-1h9z7r5-MuiButtonBase-root-MuiTab-root {
+    padding: 15px !important;
+    margin-right: 30px !important;
+  }
+
+  .upload-course .css-1h9z7r5-MuiButtonBase-root-MuiTab-root:last-child {
+    padding: 15px !important;
+    margin-right: 0 !important;
+  }
+
+  .upload-course
+    .css-1aafc2m-MuiFormControl-root-MuiTextField-root
+    .MuiOutlinedInput-input {
+    height: 55px !important;
+  }
+
+  .upload-course .MuiInputLabel-root {
+    top: 0 !important;
+  }
+
+  .upload-course .select .MuiOutlinedInput-notchedOutline {
+    height: 60px !important;
+  }
+
+  .upload-course .select .MuiOutlinedInput-input {
+    height: 60px !important;
+  }
+
+  .upload-course textarea {
+    height: 280px;
+    min-height: 280px !important;
+  }
+
+  .upload-course .button-upload .required {
+    top: 17px;
+  }
+
+  .upload-course .required {
+    top: 19px !important;
+    width: 16px;
+    height: 16px;
+  }
+
+  .upload-course .button-upload {
+    height: 55px;
+  }
+
+  .upload-course .select .MuiOutlinedInput-input {
+    padding-top: 16px !important;
+  }
+
+  .upload-course .addModule {
+    font-size: 16px;
+  }
+
+  .addVideoButton {
+    font-size: 16px !important;
+  }
+
+  .moduleUpload .module .headerText {
+    font-size: 16px !important;
+  }
+
+  .moduleUpload .moduleItemName {
+    font-size: 16px !important;
+  }
+
+  .upload-course .top-4 {
+    top: 68px !important;
+  }
+
+  .css-pgfwo1 {
+    width: 90% !important;
+  }
+}
+
+.coursesSm {
+  padding: 0 !important;
+}

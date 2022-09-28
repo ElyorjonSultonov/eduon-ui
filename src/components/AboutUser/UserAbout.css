@@ -1,0 +1,138 @@
+.css-1h9z7r5-MuiButtonBase-root-MuiTab-root {
+  margin-right: 20px !important;
+}
+.UserAbout {
+  padding-top: 40px !important;
+}
+
+.UserAbout h3 {
+  font-family: "SF Pro Text";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  color: #999999;
+}
+
+.UserAbout h1 {
+  font-family: "SF Pro Text";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 43px;
+  color: #1c1c1c;
+}
+
+.UserAbout span {
+  font-family: "SF Pro Text";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: #006aff;
+}
+
+.UserAbout p {
+  font-family: "SF Pro Text";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #1c1c1c;
+}
+
+.headrow .avatar {
+  display: flex;
+}
+
+.headrow .avatar .avInfo {
+  display: grid;
+  grid-template-columns: auto;
+  align-items: center;
+  padding-left: 30px;
+}
+
+/* aboutMe */
+.aboutMe {
+  margin-top: 60px;
+}
+
+.aboutMeInfo {
+  padding-top: 30px;
+}
+
+/* aboutMe end */
+
+.UserAbout .avatar {
+  width: 210px;
+  height: 210px;
+  /* border-radius: 15px; */
+  border: none !important;
+}
+
+.UserAbout .weight-normal {
+  font-weight: normal !important;
+}
+
+.UserAbout .bolder {
+  font-weight: bolder;
+}
+
+.UserAbout .mb-20 {
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 991px) {
+  .UserAbout {
+    padding-top: 90px !important;
+  }
+}
+
+@media (max-width: 576px) {
+  .aboutMe {
+    margin-top: 30px !important;
+  }
+  .UserAbout {
+    overflow-x: hidden;
+    padding-top: 100px !important;
+  }
+
+  .UserAbout .avatar {
+    display: block !important;
+    width: 100%;
+    height: 100%;
+  }
+
+  .UserAbout .avatar img {
+    width: 100% !important;
+    height: 247px !important;
+    margin-bottom: 20px;
+  }
+  .UserAbout .avatar .LogInfo {
+    padding-left: 0 !important;
+  }
+  .css-heg063-MuiTabs-flexContainer {
+    overflow-x: scroll !important;
+  }
+  .Courserow {
+    padding: 0 15px;
+  }
+
+  .UserAbout h3 {
+    font-size: 16px;
+    line-height: 19px;
+  }
+  .UserAbout h1 {
+    font-size: 24px;
+    line-height: 29px;
+  }
+
+  .UserAbout p {
+    font-size: 16px;
+    line-height: 19px;
+  }
+  .UserAbout span {
+    font-size: 16px;
+    line-height: 19px;
+  }
+}

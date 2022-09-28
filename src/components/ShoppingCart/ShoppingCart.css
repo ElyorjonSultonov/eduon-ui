@@ -1,0 +1,271 @@
+/* .shoppingCart {
+} */
+.shoppingCart {
+  padding-top: 20px;
+}
+.shoppingCart .xarid {
+  font-family: "SF Pro Text";
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 43px;
+  color: #1c1c1c;
+}
+
+.shoppingCart .savat {
+  font-family: "SF Pro Text";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 29px;
+  color: #999999;
+  margin: 20px 0;
+}
+
+.shoppingCart .cards {
+  background: #f6f6f6;
+  border-radius: 15px;
+  padding: 20px 30px;
+}
+
+.shoppingCart .cards .cardOne {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.shoppingCart .divider {
+  width: 100%;
+  height: 2px;
+  background-color: #d9d9d9;
+  margin: 30px 0;
+}
+
+.shoppingCart .cards .cardOne .cardsBody {
+  display: flex;
+  align-items: center;
+}
+
+.shoppingCart .cards .cardOne .cardsBody .imgCard img {
+  width: 120px;
+  aspect-ratio: 16/9;
+  margin-right: 20px;
+  /* border-radius: 10px !important; */
+  object-fit: contain !important;
+}
+
+.shoppingCart .cards .cardOne .cardsBody .cardsTitle h1 {
+  font-family: "SF Pro Text";
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #1c1c1c;
+}
+
+.shoppingCart .cards .cardOne .cardsBody .cardsTitle p {
+  font-family: "SF Pro Text";
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  text-decoration-line: underline;
+  color: #999999;
+  margin-top: 5px;
+}
+
+.shoppingCart .cards .cardOne .cardsBody .cardsTitle p:last-child {
+  text-decoration-line: none;
+}
+
+.shoppingCart .cards .cardOne .cardsBody .cardsTitle .star {
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+}
+
+.shoppingCart .cards .cardOne .cardsBody .cardsTitle .star h2 {
+  font-family: "SF Pro Text";
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  color: #006aff;
+  margin-left: 10px;
+}
+
+.shoppingCart .cards .cardOne .cardsBody .cardsTitle .star h2 span {
+  font-family: "SF Pro Text";
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  color: #999999;
+}
+
+.shoppingCart .cards .cardOne .UZS h1 {
+  font-family: "SF Pro Text";
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 29px;
+  color: #1c1c1c;
+  margin-bottom: 10px;
+  text-align: end;
+}
+
+.shoppingCart .cards .cardOne .UZS p {
+  font-family: "SF Pro Text";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ef2b23;
+  text-align: end;
+}
+
+.shoppingCart .cardTotal {
+  border: 1px solid #d9d9d9;
+  border-radius: 15px;
+  padding: 30px;
+}
+
+.shoppingCart .cardTotal h2 {
+  font-family: "SF Pro Text";
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  color: #1c1c1c;
+}
+
+.shoppingCart .cardTotal h1 {
+  font-family: "SF Pro Text";
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 38px;
+  color: #1c1c1c;
+  margin: 10px 0 20px;
+}
+
+.shoppingCart .cardTotal button {
+  width: 100%;
+  padding: 15px 0;
+  background: #006aff;
+  border-radius: 15px;
+  font-family: "SF Pro Text";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #fcfcfc;
+  border: none;
+  cursor: pointer;
+  transition: all 0.4s linear;
+}
+
+.shoppingCart .cardTotal button:hover {
+  background: #73abfa;
+}
+.shoppingCart .cartItems:last-child .divider {
+  display: none !important;
+}
+@media (max-width: 1300px) {
+  .fl-lg-column {
+    display: flex !important;
+    flex-direction: column-reverse !important;
+  }
+  .shoppingCart .cardTotal {
+    margin-bottom: 40px;
+  }
+}
+
+@media (max-width: 991px) {
+  .shoppingCart {
+    padding-top: 80px;
+  }
+}
+@media (max-width: 576px) {
+  .shoppingCart {
+    padding-top: 100px;
+  }
+  .shoppingCart .xarid {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+  }
+  .shoppingCart .savat {
+    margin-top: 10px;
+    margin-bottom: 26px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+  }
+  .shoppingCart .cardTotal {
+    padding: 20px;
+    margin-bottom: 50px;
+  }
+  .shoppingCart .cardTotal h2 {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+  }
+  .shoppingCart .cardTotal h1 {
+    font-size: 25px;
+    line-height: 30px;
+    margin: 20px 0px;
+  }
+  .shoppingCart .cards {
+    padding: 10px;
+  }
+  .shoppingCart .cards .cardOne {
+    flex-direction: column;
+  }
+  .shoppingCart .cards .cardOne .cardsBody {
+    align-items: flex-start;
+  }
+  .shoppingCart .cards .cartItems .cardOne .cardsBody .imgCard img {
+    width: 70px;
+    height: 70px;
+    border-radius: 10px;
+    margin-right: 10px;
+  }
+  .shoppingCart .cards .cardOne .cardsBody .cardsTitle h1 {
+    font-size: 16px;
+    line-height: 19px;
+    word-break: break-all;
+  }
+  .shoppingCart .cards .cardOne .cardsBody .cardsTitle p {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 17px;
+    margin-top: 5px;
+    white-space: nowrap;
+  }
+  .shoppingCart .cards .cardOne .cardsBody .cardsTitle .star {
+    margin-top: 8px;
+    display: flex;
+    align-items: center;
+  }
+  .shoppingCart .cards .cardOne .cardsBody .cardsTitle .star svg {
+    width: 20px;
+    height: 20px;
+  }
+  .shoppingCart .cards .cardOne .UZS {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 10px;
+  }
+  .shoppingCart .cards .cardOne .UZS h1 {
+    font-size: 14px;
+    line-height: 19px;
+    font-weight: 600;
+  }
+  .shoppingCart .cards .cardOne .UZS p {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17px;
+  }
+  .shoppingCart .divider {
+    margin: 0;
+    margin-bottom: 20px;
+  }
+  .shoppingCart .cardTotal button {
+    padding: 12px 0px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    border-radius: 10px;
+  }
+}

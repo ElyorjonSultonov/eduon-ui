@@ -1,0 +1,108 @@
+.Courserow h4 {
+  font-family: "SF Pro Text";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #006aff;
+  cursor: pointer;
+  margin-top: 20px;
+}
+.Courserow{
+  overflow-x: hidden;
+}
+
+.Courserow p {
+  font-family: "SF Pro Text";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  color: #1c1c1c;
+  margin-top: 28px;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.Courserow h5 {
+  font-family: "SF Pro Text";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+  margin-top: 10px;
+}
+
+.Courserow .col-6 {
+  margin-bottom: 37px;
+}
+
+
+
+.Courserow .line {
+  width: 100%;
+  height: 2px;
+  background-color: #006aff;
+  margin-top: 27px;
+}
+
+.Courserow .col-6 .begin_course_btn {
+  font-family: "SF Pro Text";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+  color: #000000;
+  margin-top: 20px;
+  padding: 12px 20px;
+  background: #fcfcfc;
+  border: 1px solid #006aff;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.UserAbout .alertMessage {
+  font-family: "SF Pro Text";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  color: #999999;
+}
+
+@media screen and (max-width: 576px) {
+  .Courserow .second_card .smImgMedia {
+    display: grid;
+    grid-template-columns: 30% auto;
+    align-items: center;
+  }
+
+  .Courserow .second_card .smImgMedia .smCard {
+    margin-left: 20px;
+
+  }
+
+  /* .Courserow .smImgMedia .imgs {
+    border: none;
+    height: 200px;
+    width: 150%;
+    max-width: 100%;
+  } */
+  .Courserow img {
+    border: 1px solid #d9d9d9;
+    /* border-radius: 18px; */
+    height: 100px;
+    width: 100%;
+    max-width: 100%;
+    object-fit: cover !important;
+  }
+  .MuiTabs-scroller.MuiTabs-fixed {
+    overflow: visible !important  ;
+  }
+  .MuiTabs-indicator.css-1aquho2-MuiTabs-indicator{
+    display: none !important;
+  }
+}

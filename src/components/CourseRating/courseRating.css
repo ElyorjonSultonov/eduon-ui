@@ -1,0 +1,181 @@
+.courseRating {
+  padding-top: 30px;
+}
+
+.courseRating .title {
+  font-family: "SF Pro Text";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 36px;
+  display: flex;
+  align-items: center;
+  color: #1c1c1c;
+  margin-bottom: 30px;
+}
+
+.courseRating ul {
+  border-bottom: 0 !important;
+}
+
+.courseRating .left {
+  text-align: center;
+}
+
+.courseRating .left h1 {
+  font-family: "SF Pro Text";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 96px;
+  line-height: 115px;
+  color: #1c1c1c;
+  text-align: center;
+}
+
+.courseRating .left img {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.courseRating .left p {
+  font-family: "SF Pro Text";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+  color: #999999;
+  margin-top: 0 !important;
+}
+
+.courseRating .right ul {
+  width: 100%;
+  margin: 0 !important;
+  margin-block-end: 0 !important;
+  margin-inline-end: 0px;
+}
+
+.courseRating .right .num {
+  font-family: "SF Pro Text";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  margin-right: 20px;
+  color: #999999;
+  margin-top: 0 !important;
+}
+
+.courseRating .right ul li {
+  display: flex;
+  align-items: center;
+}
+
+.courseRating .right ul .line-back {
+  position: relative;
+  width: 100%;
+  background-color: #d9d9d9;
+  height: 16px;
+  border-radius: 10px;
+}
+
+.courseRating .right ul .line-front {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #006aff;
+  height: 16px;
+  border-radius: 10px;
+  z-index: 2;
+}
+
+.courseRating .rating .d-flex {
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.courseRating .rating .title {
+  margin-bottom: 0 !important;
+}
+
+.courseRating .rating .d-flex p {
+  font-family: "SF Pro Text";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: right;
+  color: #999999;
+  margin-top: 0 !important;
+}
+
+.courseRating .chooseRating {
+  font-family: "SF Pro Text" !important;
+  font-weight: 400 !important;
+  font-size: 20px !important;
+  line-height: 24px !important;
+  color: #1c1c1c !important;
+  margin-bottom: 34px !important;
+}
+.courseRating img {
+  width: 343px;
+}
+
+.courseRating .css-dqr9h-MuiRating-label,
+.courseRating .css-ryrseu-MuiRating-root {
+  color: #006aff !important;
+}
+
+@media (max-width: 576px) {
+  .courseRating img {
+    width: 100% !important;
+  }
+  .courseRating .chooseRating {
+    margin: 10px 0 !important;
+  }
+  .courseRating .comentsCourseReting {
+    display: flex;
+    align-items: center;
+  }
+  .courseRating .comentsCourseReting .smComments {
+    display: flex !important;
+    flex-direction: column !important   ;
+    align-items: flex-start !important  ;
+  }
+
+  .courseRating .title {
+    font-size: 18px;
+    line-height: 21px;
+    margin-bottom: 20px;
+  }
+  .courseRating .left h1 {
+    font-size: 72px;
+    line-height: 86px;
+    margin-right: 30px;
+  }
+  .courseRating .left img {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .courseRating .left p {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .courseRating .rating .d-flex p {
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 0 !important;
+  }
+  .courseRating .chooseRating {
+    font-family: "SF Pro Text" !important;
+    font-weight: 400 !important;
+    font-size: 16px !important;
+    line-height: 19px !important;
+    color: #1c1c1c !important;
+    margin-bottom: 34px !important;
+  }
+}

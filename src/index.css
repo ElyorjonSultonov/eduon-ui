@@ -1,0 +1,28 @@
+html {
+  /* overflow: visible !important; */
+  overflow-y: scroll;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  /* font-family: sans-serif; */
+  list-style: none;
+  text-decoration: none;
+  font-family: "SF Pro Text", sans-serif !important;
+}
+.t-decor-none {
+  text-decoration: none;
+}
+.link-navigate {
+  text-decoration: underline !important;
+}
+
+/* .aspect_ratio {
+} */
+@media (max-width: 576px) {
+  html {
+    overflow-x: hidden !important;
+  }
+}

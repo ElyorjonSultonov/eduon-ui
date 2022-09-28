@@ -1,0 +1,124 @@
+.secTitle {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: -0.05em;
+  color: #1c1c1c;
+  margin-bottom: 30px;
+  margin-top: 0px;
+}
+
+.security .passwordFio {
+  position: relative;
+  margin-bottom: 0px;
+}
+
+.security .password .eye {
+  /* width: 19.57px;
+    height: 16.55px; */
+  position: absolute;
+  top: 21px;
+  right: 25px;
+  color: gray;
+  cursor: pointer;
+  z-index: 5;
+  background-color: white;
+}
+
+.security .passwordFio .eye {
+  /* width: 19.57px;
+    height: 16.55px; */
+  position: absolute;
+  top: 21px;
+  right: 25px;
+  background-color: white;
+  color: gray;
+  cursor: pointer;
+  z-index: 5;
+}
+
+.security .inputs {
+  font-family: sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  outline: none;
+}
+
+.fio .gender-box {
+  margin-bottom: 35px;
+}
+
+.fio .gender-box label {
+  width: 50%;
+  border: 2px solid #d9d9d9;
+  border-radius: 15px;
+  text-align: center;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "SF Pro Text", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #1c1c1c;
+  cursor: pointer;
+}
+
+.fio .gender-box input:checked + label {
+  border: 2px solid #006aff;
+}
+
+.fio .gender-box .d-none {
+  visibility: hidden;
+  display: none !important;
+}
+@media screen and (max-width: 576px) {
+  .secTitle {
+    font-size: 16px;
+    line-height: 19px;
+    margin: 0px 0 25px;
+  }
+  .security .btn {
+    width: 100%;
+    font-size: 16px;
+    line-height: 19px;
+    height: 51px;
+    border-radius: 10px;
+  }
+  .security .passwordFio {
+    position: relative;
+    margin-bottom: 0px;
+  }
+  .security .passwordFio .eye {
+    position: absolute;
+    top: 12.5px;
+    right: 25px;
+    background-color: white;
+    color: gray;
+    cursor: pointer;
+    z-index: 5;
+  }
+  .security .css-12sn5di-MuiFormControl-root-MuiTextField-root {
+    margin-bottom: 10px;
+    border-radius: 10px;
+  }
+  .security .css-12sn5di-MuiFormControl-root-MuiTextField-root .MuiOutlinedInput-notchedOutline {
+    height: 55px !important;
+  }
+
+  .security .MuiOutlinedInput-input {
+    height: 55px !important;
+    font-size: 16px;
+  }
+
+  .security .MuiInputLabel-root{
+    top: -3px !important;
+  }
+  /* .security
+    .css-12sn5di-MuiFormControl-root-MuiTextField-root
+    .MuiOutlinedInput-input {
+    height: 60px !important;
+  } */
+}

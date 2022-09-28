@@ -1,0 +1,371 @@
+/* ------------------- */
+.finance {
+  overflow-x: hidden;
+}
+.finance .links_line {
+  display: flex;
+  flex-direction: column;
+}
+
+.finance .line_span {
+  margin-top: 20px;
+  margin-bottom: 38px;
+}
+
+.finance .links {
+  height: 70px;
+  display: flex;
+  align-items: center;
+  border-bottom: 2px solid rgba(17, 17, 17, 0.06);
+}
+
+.finance .links p {
+  color: #999999;
+  margin: 0 20px 0 0;
+  text-align: none;
+  height: 101%;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.finance .links p:first-child {
+  color: #006aff;
+  /* border-bottom: 3px solid #006aff; */
+}
+
+.finance .links p:first-child::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 2px;
+  bottom: -2px;
+  left: 0;
+  right: 0;
+  position: absolute;
+  background-color: #006aff;
+  z-index: 2;
+}
+
+.finance .line_span {
+  width: 100%;
+  height: 0;
+  border: 2px solid rgba(17, 17, 17, 0statistic 0.06);
+}
+
+.finance .boxes_line {
+  display: flex;
+  margin-bottom: 40px;
+}
+
+.finance .box {
+  display: flex;
+  align-items: center;
+  /* width: 385px; */
+  height: 100px;
+  background: #f6f6f6;
+  border-radius: 15px;
+}
+
+.finance .box_item .img {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 25px;
+  border-radius: 50%;
+  background-color: #bfdaff;
+}
+
+.finance .box_item .img svg {
+  width: 24px;
+  height: 24px;
+}
+
+.finance .box_item {
+  display: flex;
+  align-items: center;
+  padding: 0 25px;
+}
+
+.finance .box_p h2 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  letter-spacing: -0statistic 0.05em;
+  color: #006aff;
+  margin-top: 8px;
+}
+
+.finance .transactions .ma_left {
+  padding-left: 0;
+}
+
+.finance .transactions .cardHistory {
+  border: 1px solid #f6f6f6;
+  border-radius: 15px;
+  padding: 30px;
+}
+
+.finance .historyH1 {
+  font-family: "SF Pro Text";
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: -0.05em;
+  color: #1c1c1c;
+  margin-bottom: 30px;
+}
+.finance .color-gray {
+  color: #999999;
+  font-size: 16px !important;
+  margin-bottom: 25px;
+}
+.finance .date-picker {
+  border: 1px solid #ededed;
+  padding: 10px;
+  border-radius: 15px;
+}
+.finance .date-picker:hover {
+  border: 1px solid #cbcbcb;
+}
+.finance .transactions .cardHistory .historyP {
+  font-family: "SF Pro Text";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: -0.05em;
+  color: #999999;
+}
+
+.finance .transactions .electronicWallet {
+  margin-top: 30px;
+}
+
+.finance .transactions .electronicWallet .cardNumber {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #f6f6f6;
+  border-radius: 15px;
+  padding: 30px;
+}
+
+.finance .transactions .electronicWallet .cardNumber h1 {
+  font-family: "SF Pro Text";
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: -0.05em;
+  color: #ef2b23;
+}
+
+.finance .transactions .electronicWallet .cardNumber .cardNumbersSecret {
+  display: flex;
+  align-items: center;
+}
+
+.finance
+  .transactions
+  .electronicWallet
+  .cardNumber
+  .cardNumbersSecret
+  .cardSend {
+  margin-left: 25px;
+}
+
+.finance
+  .transactions
+  .electronicWallet
+  .cardNumber
+  .cardNumbersSecret
+  .cardSend
+  h1 {
+  font-family: "SF Pro Text";
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: -0.05em;
+  color: #1c1c1c;
+}
+
+.finance
+  .transactions
+  .electronicWallet
+  .cardNumber
+  .cardNumbersSecret
+  .cardSend
+  p {
+  font-family: "SF Pro Text";
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: -0.05em;
+  color: #999999;
+  margin-top: 5px;
+}
+
+.finance .transactions .displaying {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 30px;
+  margin-top: 33px;
+}
+
+.finance .transactions .displaying .displayNumber {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.finance .transactions .displaying .displayNumber p {
+  margin: 0 20px;
+}
+
+.finance .transactions .displaying .displayNumber .one {
+  background: #80b5ff;
+  border-radius: 8px;
+  padding: 0 8px;
+}
+
+.finance .chart-box {
+  border: 1px solid #f6f6f6;
+  border-radius: 15px;
+  padding: 30px;
+  display: none;
+}
+
+.finance .chart-box .indicators {
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: -0.05em;
+  color: #1c1c1c;
+  margin: 0 50px 0 40px;
+  position: relative;
+}
+.finance .chart-box .indicators::before {
+  content: "";
+  display: block;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  top: 50%;
+  left: -25px;
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
+}
+.finance .chart-box .bg-blue::before {
+  background-color: #006aff;
+}
+.finance .chart-box .bg-red::before {
+  background-color: #ef2b23;
+}
+@media (max-width: 1300px) {
+  .finance .transactions .displaying {
+    margin-bottom: 54px !important;
+  }
+}
+.finance .align-items-center {
+  display: flex;
+  align-items: center !important;
+  justify-content: space-between;
+}
+
+.finance .css-1u3bzj6-MuiFormControl-root-MuiTextField-root {
+  width: 120px;
+  margin-left: 30px;
+}
+@media screen and (max-width: 991px) {
+  .finance .transactions .cardHistory {
+    padding: 20px 30px !important;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .finance .box {
+    display: flex;
+    align-items: center;
+    height: 90px;
+    background: #f6f6f6;
+    border-radius: 15px;
+  }
+  .finance .box_item {
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+  }
+  .finance .box_item .box_p p {
+    font-size: 14px;
+    line-height: 17px;
+  }
+
+  .finance .box_p h2 {
+    font-size: 20px;
+    line-height: 24px;
+    margin-top: 5px;
+  }
+  .finance .transactions .cardHistory {
+    border: none;
+    border-radius: 0px;
+    padding: 0px;
+  }
+  .finance .transactions .electronicWallet .cardNumber {
+    border-radius: 10px;
+    padding: 15px 15px 15px 20px;
+  }
+  .finance
+    .transactions
+    .electronicWallet
+    .cardNumber
+    .cardNumbersSecret
+    .cardSend
+    h1 {
+    font-size: 16px;
+    line-height: 19px;
+  }
+  .finance
+    .transactions
+    .electronicWallet
+    .cardNumber
+    .cardNumbersSecret
+    .cardSend
+    p {
+    font-size: 12px;
+    line-height: 14px;
+    margin-top: 5px;
+  }
+
+  .finance .transactions .electronicWallet .cardNumber h1 {
+    font-size: 14px;
+    line-height: 17px;
+  }
+  .finance .transactions .displaying {
+    width: 100%;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: flex-start;
+    padding: 0px;
+    margin-top: 33px;
+  }
+  .finance .transactions .displaying .displayNumber {
+    margin-top: 20px;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+  }
+  .finance .historyH1 {
+    font-size: 16px;
+    line-height: 19px;
+    margin-bottom: 30px;
+  }
+  .finance .transactions .displaying .displayNumber p {
+    margin: 0 10px !important;
+  }
+  .finance .headerRow.rowGrid {
+    margin: 0 !important;
+  }
+}

@@ -1,0 +1,29 @@
+.termsAndConditions {
+  padding-top: 50px !important;
+}
+.termsAndConditions h1 {
+  margin: 50px 0 10px !important;
+  line-height: 30px;
+}
+
+.termsAndConditions h2 {
+  margin: 15px 0 !important;
+  line-height: 30px;
+}
+.termsAndConditions p {
+  line-height: 26px;
+}
+@media (max-width: 576px) {
+  .termsAndConditions {
+    padding-top: 60px !important;
+  }
+  .termsAndConditions p {
+    text-align: justify;
+  }
+  .termsAndConditions h1 {
+    margin: 50px 0 10px !important;
+    line-height: 30px;
+    font-size: 28px !important;
+    /* color: red; */
+  }
+}

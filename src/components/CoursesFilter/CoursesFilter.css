@@ -1,0 +1,11 @@
+.coursesFilter .navBotMenu{
+    margin-right: -30px !important;
+}
+.coursesFilter .col-6{
+    overflow-x: visible !important;
+}
+@media (max-width:576px) {
+    .coursesFilter {
+        padding-top: 140px;
+    }
+}

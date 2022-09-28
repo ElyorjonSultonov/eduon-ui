@@ -1,0 +1,444 @@
+.aboutEduon {
+  overflow-x: hidden;
+}
+.aboutEduon .eduonTitle {
+  margin-bottom: 10px !important;
+}
+.aboutEduon .container {
+  overflow: hidden;
+}
+
+.about .courses {
+  padding: 100px 0 0 0;
+}
+
+.about .aboutEduon .title {
+  font-family: "SF Pro Text";
+  font-weight: 900;
+  font-size: 28px;
+  line-height: 33px;
+  color: #1c1c1c;
+  margin-bottom: 50px;
+}
+
+.about .useful {
+  margin-top: 100px;
+}
+.about .useful h1 {
+  font-family: "SF Pro Text";
+  font-weight: 900;
+  font-size: 30px;
+  line-height: 48px;
+  color: #006aff;
+  margin-bottom: 30px;
+}
+.about .useful p {
+  font-family: "SF Pro Text";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  display: flex;
+  align-items: center;
+  color: #1c1c1c;
+}
+.about .useful .usefulTitle {
+  font-family: "SF Pro Text";
+  font-weight: 900;
+  font-size: 30px;
+  line-height: 48px;
+  color: #006aff;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.about .useful .usefulText {
+  font-family: "SF Pro Text";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #1c1c1c;
+}
+
+.about .useful .Text-center {
+  margin-top: 50px;
+}
+.about .useful img {
+  max-width: 100%;
+  width: 100%;
+}
+.about .useful .number {
+  text-align: center;
+  margin: 0 50px;
+}
+.about .useful .number h1 {
+  font-family: "SF Pro Text";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 56px;
+  color: #000000;
+}
+.about .useful .number p {
+  text-align: center;
+  font-family: "SF Pro Text";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.about .ourTeam h1 {
+  margin-top: 100px !important;
+  margin-bottom: 30px !important;
+}
+.about .ourTeamImg img {
+  max-width: 100% !important;
+  width: 100% !important;
+}
+
+.about .aboutEduon .aboutEduonImgs {
+  margin-top: 100px;
+  display: grid;
+  grid-template-columns: 60% auto;
+  height: 585px;
+}
+
+.about .aboutEduon .aboutEduonImgs img {
+  max-width: 100%;
+  width: 100%;
+  height: 585px;
+  object-fit: cover;
+}
+
+.about .aboutEduon .aboutEduonImgs .aboutEduonText {
+  background: #f6f6f6;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  padding-left: 30px;
+  padding-right: 20px;
+}
+
+.about .aboutEduon .aboutEduonImgs .aboutEduonText h1 {
+  margin-bottom: 30px;
+  font-family: "SF Pro Text";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 28px;
+  line-height: 33px;
+  color: #1c1c1c;
+}
+
+.about .aboutEduon .aboutEduonImgs .aboutEduonText p {
+  font-family: "SF Pro Text";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  color: #1c1c1c;
+}
+
+.about .aboutEduon .aboutUs h1 {
+  font-family: "SF Pro Text";
+  font-weight: 900;
+  font-size: 28px;
+  line-height: 33px;
+  color: #1c1c1c;
+  margin: 100px 0 30px;
+}
+
+.about .aboutEduon .aboutUs p {
+  font-family: "SF Pro Text";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: #1c1c1c;
+}
+
+.about .aboutEduon .partners h1 {
+  font-family: "SF Pro Text";
+  font-weight: 900;
+  font-size: 28px;
+  line-height: 33px;
+  color: #1c1c1c;
+  margin: 100px 0 50px;
+}
+
+.about .aboutEduon .partners .partnersImg {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  white-space: nowrap;
+  overflow-x: scroll;
+  scrollbar-color: rgb(240, 236, 236) white;
+  scrollbar-width: thin;
+  padding-bottom: 20px;
+}
+
+/* WebKit and Chromiums */
+.about .aboutEduon .partners .partnersImg::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+  background-color: white;
+}
+
+.about .aboutEduon .partners .partnersImg::-webkit-scrollbar-thumb {
+  background: rgb(240, 236, 236);
+  border-radius: 5px;
+}
+
+.about .aboutEduon .partners .partnersImg img {
+  margin: 0 30px;
+}
+
+.about .aboutEduon .videoBrifing h1 {
+  font-family: "SF Pro Text";
+  font-weight: 900;
+  font-size: 28px;
+  line-height: 33px;
+  color: #1c1c1c;
+  margin: 100px 0 50px;
+}
+
+.about .aboutEduon .videoBrifing img {
+  max-width: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 15px !important;
+  height: 753px !important;
+}
+
+.about .aboutEduon .contact h1 {
+  margin: 100px 0 50px;
+}
+
+.about .aboutEduon .contact h2 {
+  font-family: "SF Pro Text";
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  text-decoration-line: underline;
+  color: #006aff;
+}
+
+@media screen and (max-width: 1300px) {
+  .about .title {
+    font-size: 24px !important;
+  }
+
+  .about .useful {
+    margin-top: 80px;
+  }
+  .about .useful h1 {
+    font-size: 20px;
+    line-height: 38px;
+    margin-bottom: 20px;
+  }
+  .about .useful p {
+    font-size: 14px;
+  }
+  .about .useful .usefulTitle {
+    font-size: 25px;
+    line-height: 48px;
+    margin-top: 80px;
+  }
+  .about .useful .usefulText {
+    font-size: 16px;
+    line-height: 150%;
+  }
+
+  .about .useful .Text-center {
+    margin-top: 50px;
+  }
+  .about .useful img {
+    max-width: 100%;
+    width: 100%;
+  }
+  .about .useful .number {
+    text-align: center;
+    margin: 0 40px;
+  }
+  .about .useful .number h1 {
+    font-size: 34px;
+  }
+  .about .useful .number p {
+    font-size: 18px;
+  }
+
+  .about .aboutEduon .aboutEduonImgs {
+    display: grid;
+    grid-template-columns: 50% auto;
+    height: 387px;
+  }
+
+  .about .aboutEduon .aboutEduonImgs img {
+    max-width: 100%;
+    width: 100%;
+    height: 387px;
+    object-fit: cover;
+  }
+
+  .about .aboutEduon .aboutEduonImgs .aboutEduonText {
+    height: 387px;
+  }
+
+  .about .aboutEduon .aboutEduonImgs .aboutEduonText h1 {
+    font-size: 25px;
+    line-height: 40px;
+    margin-bottom: 20px;
+  }
+
+  .about .aboutEduon .aboutEduonImgs .aboutEduonText p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+  }
+  .about .aboutEduon .contact h1 {
+    margin: 80px 0 40px;
+  }
+}
+@media screen and (max-width: 991px) {
+  .about .useful {
+    margin-top: 50px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .about .title {
+    font-size: 20px !important;
+  }
+  .aboutEduon {
+    overflow-x: hidden;
+    padding-top: 0px;
+  }
+  .about .useful {
+    margin-top: 50px;
+  }
+  .about .useful h1 {
+    font-size: 18px;
+    line-height: 35px;
+    margin-bottom: 10px;
+  }
+
+  .about .useful .usefulTitle {
+    font-size: 20px;
+    line-height: 40px;
+    margin-top: 50px;
+    text-align: left;
+  }
+  .about .useful .usefulText {
+    font-size: 14px;
+    line-height: 150%;
+    text-align: left;
+  }
+
+  .about .useful .number {
+    text-align: center;
+    margin: 0px 20px;
+  }
+  .about .useful .number h1 {
+    font-size: 28px;
+  }
+  .about .useful .number p {
+    font-size: 14px;
+  }
+
+  .about .aboutEduon .partners {
+    margin-top: 180px !important;
+  }
+  /* .courses{
+    padding-top: 0 !important ;
+  } */
+
+  .about .aboutEduon .title {
+    font-size: 22px !important;
+    line-height: 27px !important;
+    margin: 0px 0 30px;
+    padding-left: 0px;
+  }
+
+  .about .aboutEduon .aboutEduonImgs {
+    display: flex;
+    flex-direction: column;
+    height: 443px;
+  }
+
+  .about .aboutEduon .aboutEduonImgs img {
+    max-width: 100%;
+    width: 100%;
+    height: 209px;
+    object-fit: cover;
+  }
+
+  .about .aboutEduon .aboutEduonImgs .aboutEduonText {
+    padding: 15px;
+  }
+
+  .about .aboutEduon .aboutEduonImgs .aboutEduonText h1 {
+    font-size: 24px;
+    line-height: 29px;
+    margin-bottom: 20px;
+  }
+
+  .about .aboutEduon .aboutEduonImgs .aboutEduonText p {
+    font-size: 16px;
+    line-height: 150%;
+  }
+
+  .about .aboutEduon .aboutUs h1 {
+    font-family: "SF Pro Text";
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 33px;
+    color: #1c1c1c;
+    margin: 50px 0 10px;
+  }
+
+  .about .aboutEduon .aboutUs h1 {
+    font-size: 24px;
+    line-height: 29px;
+  }
+
+  .about .aboutEduon .aboutUs p {
+    font-size: 16px;
+    line-height: 150%;
+  }
+
+  .about .aboutEduon .partners h1 {
+    font-size: 24px;
+    line-height: 29px;
+    margin: 50px 0 30px;
+  }
+
+  .about .aboutEduon .videoBrifing h1 {
+    font-size: 28px;
+    line-height: 33px;
+    margin: 50px 0 30px;
+    padding-left: 0px;
+  }
+
+  .about .aboutEduon .videoBrifing img {
+    border-radius: 0px !important;
+    height: 219px !important;
+  }
+
+  .about .aboutEduon .contact {
+    text-align: left;
+  }
+
+  .about .aboutEduon .contact h1 {
+    font-size: 24px;
+    line-height: 29px;
+    margin: 30px 0 20px;
+  }
+
+  .about .aboutEduon .contact h2 {
+    font-size: 36px;
+    line-height: 43px;
+  }
+}

@@ -1,0 +1,118 @@
+.footer {
+  background-color: #fcfcfc;
+  padding:50px 15px 20px !important;
+  margin-top: 50px;
+}
+.footer .foterLeft p {
+  font-family: "SF Pro Text";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #1c1c1c;
+  margin: 50px 0 17px;
+}
+
+.footer .foterLeft .fotLogo img {
+  max-width: 100%;
+  width: 100%;
+  width: 170px;
+}
+
+.footer .foterLeft .networks {
+  display: flex;
+  align-items: center;
+}
+.footer .foterLeft .network {
+  margin-right: 34px;
+}
+.footer .pageName {
+  font-family: "SF Pro Text";
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 24px;
+  color: rgba(17, 17, 17, 0.54);
+  margin-bottom: 20px;
+}
+.footer .webSite ul li {
+  font-family: "SF Pro Text";
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  color: #111111;
+  margin-top: 10px;
+}
+.footer .address p {
+  font-family: "SF Pro Text";
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 24px;
+  color: #111111;
+  margin-top: 20px;
+}
+.footer .fotLink {
+  font-family: "SF Pro Text";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #999999;
+  text-align: center;
+  border-top: 1px solid #d9d9d9;
+  margin-top: 20px;
+  padding-top: 20px;
+}
+
+@media screen and (max-width: 576px) {
+  .footer {
+    background-color: #fcfcfc;
+    padding: 0px;
+    margin-top: 50px;
+  }
+
+  .footer .foterLeft p {
+    font-size: 16px;
+    line-height: 25px;
+    margin: 30px 0 13px;
+  }
+
+  .footer .pageName {
+    font-size: 16px;
+    line-height: 19px;
+    margin: 32px 0 20px;
+  }
+
+  .footer .webSite ul li {
+    font-size: 16px;
+    line-height: 19px;
+    margin-top: 10px;
+  }
+
+  .footer .address p {
+    font-size: 16px;
+    line-height: 19px;
+    margin-top: 10px;
+  }
+
+  .footer .fotLink {
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    border-top: 1px solid #d9d9d9;
+    margin-top: 30px;
+    padding: 30px 0;
+  }
+  .col-sm-12 {
+    width: calc(100% / 24 * 12);
+    padding: 0px;
+  }
+  .footer .foterLeft p {
+    font-family: "SF Pro Text";
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #1c1c1c;
+    margin: 50px 0 17px !important;
+  }
+  .footer .col-sm-24 {
+    padding: 0px;
+  }
+}

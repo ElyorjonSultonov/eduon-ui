@@ -1,0 +1,59 @@
+.Verify .container .wrapper input {
+  height: 24px !important;
+  width: 15px !important;
+  text-align: center;
+  border: none;
+  border-bottom: 1.5px solid #1c1c1c;
+  margin-right: 10px !important;
+  font-family: sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0 !important;
+}
+.Verify .container .wrapper input {
+  height: 24px !important;
+  width: 15px !important;
+  text-align: center;
+  border: none;
+  border-bottom: 1.5px solid #1c1c1c;
+  margin-right: 10px !important;
+  font-family: sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0 !important;
+}
+
+.Verify .resendMsg {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+  padding: 0px 25px;
+}
+
+.Verify .resendMsg p {
+  font-family: "SF Pro Text";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #1c1c1c;
+  text-decoration: underline;
+}
+
+.Verify .resendMsg {
+  color: #999999;
+  text-decoration: none !important;
+}
+@media (max-width:576px) {
+  .Verify .resendMsg{
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+  .Verify .resendMsg p{
+    font-size: 12px  !important;
+    text-align: left;
+  }
+}

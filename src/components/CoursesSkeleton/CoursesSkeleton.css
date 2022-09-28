@@ -1,0 +1,21 @@
+.skeleton {
+    padding-top: 20px;
+}
+
+.skelets {
+    height: 170px !important;
+    /* aspect-ratio: 16/9 !important; */
+}
+
+@media (max-width:1300px) {
+    .skelets {
+        height: 160px !important;
+        /* aspect-ratio: 16/9 !important; */
+    }
+}
+@media (max-width:1150px) {
+    .skelets {
+        height: 145px !important;
+        /* aspect-ratio: 16/9 !important; */
+    }
+}

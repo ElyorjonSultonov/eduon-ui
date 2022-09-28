@@ -1,0 +1,243 @@
+.loadedCourses .titleCourse {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-bottom: 2px solid rgba(17, 17, 17, 0.06);
+}
+
+.loadedCourses .titleCourse h1 {
+  font-family: "SF Pro Text";
+  margin-right: 40px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #999999;
+}
+
+.loadedCourses .tableList {
+  background: #f6f6f6;
+  border-radius: 15px;
+  padding: 20px 40px;
+  width: 99.5%;
+  margin-top: 10px;
+}
+
+.loadedCourses .tableList table {
+  border: none;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.loadedCourses .tableList table .topTitle {
+  border-bottom: 1px solid #d9d9d9;
+}
+
+.loadedCourses .tableList .topTitle .lgMargin {
+  padding-left: 10px;
+}
+
+.loadedCourses .tableList .bodyTitle .lgMargin {
+  padding-left: 10px;
+}
+
+.loadedCourses .tableList table .topTitle th {
+  text-align: left;
+  font-family: "SF Pro Text";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: -0.05em;
+  color: #999999;
+  padding: 18px 0;
+  text-align: center;
+}
+
+.loadedCourses .tableList table .topTitle th svg {
+  margin-left: 18px;
+}
+
+.loadedCourses .tableList table .bodyTitle {
+  border-bottom: 1px solid #d9d9d9;
+  padding: 0 40px;
+}
+
+
+.loadedCourses .tableList table .bodyTitle .number {
+  font-family: "SF Pro Text";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: -0.05em;
+  color: #999999;
+}
+
+.loadedCourses .tableList table .bodyTitle td {
+  padding: 8px 0;
+  font-family: "SF Pro Text";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: -0.05em;
+  color: #1c1c1c;
+  text-align: center;
+}
+
+.loadedCourses .tableList table .bodyTitle .imgs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-align: left;
+}
+
+.loadedCourses .tableList table .bodyTitle .imgs img {
+  margin-right: 10px;
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.loadedCourses .tableList table .bodyTitle .active {
+  position: relative;
+  padding-left: 20px;
+}
+
+.loadedCourses .tableList table .bodyTitle .onHold {
+  position: relative;
+  padding-left: 20px;
+}
+
+.loadedCourses .tableList table .bodyTitle .rejected {
+  position: relative;
+  padding-left: 20px;
+}
+
+.loadedCourses .tableList table .bodyTitle .inDetail {
+  display: flex;
+  align-items: center;
+}
+
+.loadedCourses .tableList table .bodyTitle svg {
+  margin-left: 12px;
+}
+
+.loadedCourses .tableList table .bodyTitle .active::before {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  content: "";
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-left: 5px;
+  background: #0cc14a;
+}
+
+.loadedCourses .tableList table .bodyTitle .onHold::before {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  content: "";
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-left: 5px;
+  background: #f19d3b;
+}
+
+.loadedCourses .tableList table .bodyTitle .rejected::before {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  content: "";
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-left: 5px;
+  background: #0cc14a;
+}
+
+.loadedCourses .tableList table td {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1300px) {
+  .loadedCourses .tableList .lgMargin {
+    padding-left: 10px;
+  }
+
+  .loadedCourses .tableList table .topTitle th {
+    font-size: 13px;
+    line-height: 17px;
+    padding: 18px 0;
+  }
+
+  .loadedCourses .tableList table .topTitle th svg {
+    margin-left: 10px;
+  }
+
+  .loadedCourses .tableList table .bodyTitle .lgMedia {
+    font-size: 13px;
+    line-height: 17px;
+  }
+
+  .loadedCourses .tableList table .bodyTitle td {
+    font-size: 14px;
+    line-height: 17px;
+  }
+
+  .loadedCourses .tableList {
+    padding: 8px 10px 10px;
+    width: 99.5%;
+  }
+}
+
+
+
+@media (max-width: 992px) {
+  .loadedCourses .tableList {
+  overflow-x: scroll;
+  white-space: nowrap;
+  }
+  .loadedCourses .tableList table .topTitle th svg {
+    margin:0 10px;
+  }
+  .loadedCourses .tableList table .bodyTitle td {
+    font-size: 14px;
+    line-height: 17px;
+    padding-left: 10px;
+  }
+
+  .loadedCourses .tableList table .topTitle th {
+    font-size: 13px;
+    line-height: 17px;
+    padding: 18px 0;
+    padding-left: 15px;
+  }
+}
+@media (max-width: 576px) {
+  .loadedCourses .tableList {
+    width: auto !important;
+  }
+  .sm-scroll {
+    overflow-x: scroll !important;
+  }
+  .sm-hidden {
+    overflow-x: hidden;
+  }
+}

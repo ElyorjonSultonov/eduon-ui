@@ -1,0 +1,473 @@
+.watchingCourses
+  .css-yrsk83-MuiButtonBase-root-MuiAccordionSummary-root.MuiButtonBase-root {
+  width: 100%;
+  height: 80px !important;
+  display: flex;
+  background: #f8f8f8 !important;
+  border-radius: 0px !important;
+  padding: 24px 20px;
+}
+
+.watchingCourses .complete {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px 0 20px;
+}
+
+.watchingCourses .complete h1 {
+  font-family: "SF Pro Text";
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  color: #1c1c1c;
+}
+
+.watchingCourses .complete .fullView {
+  display: flex;
+  align-items: center;
+}
+
+.watchingCourses .video {
+  margin-right: 20px;
+  background-color: #f8f8f8 !important;
+}
+
+.watchingCourses .complete .fullView video {
+  margin-right: 20px;
+}
+
+.watchingCourses .complete .fullView h2 {
+  font-family: "SF Pro Text";
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 25px;
+  color: #1c1c1c;
+}
+
+.watchingCourses .complete .fullView h2 span {
+  font-family: "SF Pro Display";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #999999;
+}
+
+/* .watchingCourses  {
+  display: flex;
+  align-items: flex-start;
+} */
+.watchingCourses main {
+  position: relative;
+}
+
+.watchingCourses main .playBtn {
+  color: #006aff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+  transition: all 0.4s linear;
+}
+
+.watchingCourses main img {
+  max-width: 100%;
+  width: 100%;
+  height: 94vh;
+}
+/* .watchingCourses .StructureMain {
+  position: fixed !important;
+  right: 0 !important;
+  max-width: 380px;
+  height: 100vh;
+  overflow-y: scroll ;
+} */
+.watchingCourses .StructureMain .watch__title {
+  background: #bfdaff;
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  padding: 20px;
+}
+
+.watchingCourses .StructureMain .watch__title h1 {
+  font-family: "SF Pro Text";
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 29px;
+  color: #1c1c1c;
+  display: flex;
+  align-items: center;
+}
+
+.watchingCourses .StructureMain .watch__title h1 svg {
+  margin-right: 18px;
+}
+
+.watchingCourses .StructureMain .watch__title img {
+  margin-right: 22px;
+}
+
+.watchingCourses .video {
+  width: 100%;
+  position: relative;
+}
+.watchingCourses .navigation {
+  position: absolute;
+  width: 50px;
+  height: 100px;
+  top: 50%;
+  transform: translateY(-50%);
+  border: none;
+  outline: none;
+  background-color: #bfdaff;
+}
+.watchingCourses .n-next {
+  right: 0;
+}
+.watchingCourses .n-prev {
+  left: 0;
+}
+
+.watchingCourses .video .img {
+  position: relative;
+  width: 100%;
+}
+
+.watchingCourses .video .img img {
+  width: 100%;
+}
+
+.watchingCourses .video .img svg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.watchingCourses .coverImg {
+  border-radius: 0 !important;
+}
+
+.p-0 {
+  padding: 0 !important;
+}
+
+.watchingCourses .video_title .aboutCourse {
+  margin-top: 20px;
+  border-bottom: 2px solid rgba(17, 17, 17, 0.06);
+  width: 95%;
+}
+
+.watchingCourses .video_title .aboutCourse .tab {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: #999999;
+  margin-right: 50px;
+  padding-bottom: 5px;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+  border-bottom: 2px solid white;
+}
+
+.watchingCourses .video_title .aboutCourse .tab:hover {
+  color: #006aff;
+  border-bottom: 2px solid #006aff;
+}
+
+.watchingCourses .video_title p {
+  margin-top: 10px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: #1c1c1c;
+}
+
+.watchingCourses .video_title ul:nth-of-type(1) {
+  border-bottom: 2px solid rgba(17, 17, 17, 0.06);
+  padding-bottom: 30px;
+  width: 95%;
+}
+
+.watchingCourses .video_title ul .paragraf {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  color: #1c1c1c;
+  margin-bottom: 30px;
+}
+
+.watchingCourses .video_title ul li {
+  margin-top: 15px;
+}
+
+.watchingCourses .video_title ul li a {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #999999;
+}
+
+.watchingCourses .video_title ul li a svg {
+  margin-right: 12px;
+}
+
+.watchingCourses .main {
+  padding: 0 15px;
+}
+
+.acc__left {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.acc__left p {
+  font-style: normal !important;
+  font-weight: 400 !important;
+  font-size: 17px !important;
+  line-height: 24px !important;
+  margin: 0 !important;
+  margin-left: 20px !important;
+}
+
+.acc__left p span {
+  font-size: 16px !important;
+  color: #999999;
+  margin-left: 20px;
+}
+
+.acc__right {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.img .pause {
+  width: 85px !important;
+  height: 85px !important;
+  background: #006aff !important;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  transition: all 0.4s linear;
+}
+
+.pause .MuiSvgIcon-root {
+  color: white !important;
+  font-size: 20px;
+  width: 50px !important;
+  height: 50px !important;
+}
+
+.durationVideo {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.durationVideo .durationVideoParts {
+  display: flex;
+  align-items: center;
+}
+
+.durationVideo .durationVideoParts span {
+  display: block;
+  color: #999999;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  margin-left: 20px;
+}
+
+.durationVideo .durationVideoParts .fileContentDownload {
+  padding: 5px 8px;
+  border: 1px solid rgba(28, 28, 28, 1);
+  border-radius: 5px;
+  margin-left: 20px;
+  white-space: nowrap;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.durationVideo .durationVideoParts .fileContentDownload svg {
+  margin-right: 5px;
+}
+
+.acc__open {
+  padding: 15px 20px;
+}
+
+.watchingCourses .accordion .css-wflfht-MuiTypography-root {
+  padding-left: 0 !important;
+}
+
+.watchingCourses
+  .accordion
+  .css-1iq0fu6-MuiButtonBase-root-MuiAccordionSummary-root.MuiButtonBase-root {
+  border-radius: 0px;
+  padding: 24px 16px;
+  margin-top: 0px;
+}
+
+.watchingCourses .css-1wxvl4r-MuiPaper-root-MuiAccordion-root.Mui-expanded,
+.watchingCourses .css-1iqaret-MuiPaper-root-MuiAccordion-root.Mui-expanded {
+  margin: 0 !important;
+}
+
+.watchingCourses .accordion .css-1y1rnv2-MuiTypography-root {
+  padding: 24px 32px;
+}
+
+.watchingCourses .accordion .css-15v22id-MuiAccordionDetails-root {
+  padding: 0;
+}
+
+.watchingCourses .accordion .CheckboxVideo {
+  width: 20px;
+  height: 20px;
+  border: 1.5px solid rgba(153, 153, 153, 1);
+  border-radius: 50%;
+  background-color: transparent;
+}
+
+.activeLabel {
+  background-color: rgba(217, 217, 217, 1);
+  padding: 15px 20px;
+}
+
+.video .img .videoSetting {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 50px;
+  height: 50px;
+  background-color: rgba(0, 0, 0, 0.5);
+  text-align: right !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+}
+
+.video .iconsQuality {
+  width: 30px;
+}
+
+.video .img .videoSetting:hover {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.video .img .videoSetting svg {
+  position: unset;
+  transform: none;
+  fill: white;
+  width: 30px;
+  height: 30px;
+}
+
+.video .img .videoSetting .resolution {
+  position: absolute;
+  top: 0px;
+  right: 52px;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 200px;
+  text-align: left;
+  padding: 10px 0px;
+  color: white;
+  font-size: 14px;
+  font-weight: 700;
+  border-radius: 5px;
+}
+
+.video .img .videoSetting .resolution .title {
+  letter-spacing: 1px;
+  white-space: nowrap;
+}
+
+.video .img .videoSetting .resolution li {
+  padding: 10px 15px;
+  display: flex;
+  align-items: center;
+}
+
+.video .img .videoSetting .resolution li svg {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.video .img .videoSetting .resolution li:hover {
+  background: rgba(0, 0, 0, 0.3);
+}
+@media (max-width: 1300px) {
+  .watchingCourses .video_title .aboutCourse .tab {
+    margin-right: 25px;
+  }
+}
+
+@media (max-width: 991px) {
+  .watchingCourses {
+    padding-top: 60px !important;
+  }
+}
+@media (max-width: 576px) {
+  .watchingCourses {
+    padding-top: 90px !important;
+  }
+  .video {
+    padding-top: 100px;
+    overflow-x: hidden;
+  }
+
+  .acc__left p {
+    font-size: 15px !important;
+  }
+
+  .acc__left p span {
+    font-size: 12px !important;
+    color: #999999;
+    margin-left: 15px;
+  }
+
+  /* .video .coverImg {
+    height: 0px !important;
+  } */
+
+  .watchingCourses .video_title .aboutCourse .tab {
+    margin-right: 30px;
+    padding-bottom: 12px;
+    font-size: 14px !important;
+    white-space: nowrap;
+  }
+
+  .watchingCourses .video_title .aboutCourse {
+    margin-right: -20px !important;
+  }
+  .watchingCourses .video_title p {
+    font-size: 14px;
+  }
+
+  .watchingCourses .TabsListUnstyled-root {
+    display: flex;
+    justify-content: space-between;
+    overflow-x: scroll !important;
+    width: 100%;
+  }
+
+  .watchingCourses .video_title .aboutCourse .tab:hover {
+    color: #006aff;
+    border-bottom: 2px solid #006aff;
+  }
+}

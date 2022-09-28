@@ -1,0 +1,34 @@
+/* accordion__item */
+/* .accordion__item {
+  /* width: 100%;
+  height: 100px;
+  display: grid;
+  grid-template-columns: 70% auto;
+  background: #F8F8F8;
+border-radius: 14px;
+padding: 24px 32px;
+margin-top: 20px; */
+/*/
+/* accordion__item end */
+/* acc__left */
+.acc__left {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.acc__left p {
+  font-style: normal !important;
+  font-weight: 400 !important;
+  font-size: 20px !important;
+  line-height: 24px !important;
+  margin: 0 !important;
+  margin-left: 20px !important;
+}
+/* acc__left end */
+/* acc__right */
+.acc__right{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+/* acc__right end */

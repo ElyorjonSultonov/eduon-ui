@@ -1,0 +1,138 @@
+.searchPage {
+  padding-top: 20px;
+}
+
+.searchPage .aboutTitleHeader {
+  font-family: "SF Pro Text";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 28px;
+  line-height: 33px;
+  margin-top: 30px;
+  color: #1c1c1c;
+}
+
+.searchPage .swiper {
+  padding: 0 100px !important;
+}
+
+.searchPage .headerTitle {
+  margin: 70px 0 40px;
+}
+
+.searchPage .cards_one {
+  min-width: 250px;
+  width: 25%;
+  margin: 0 auto !important;
+}
+
+.searchPage .swiper-button-prev::after {
+  position: absolute;
+  left: -30px;
+  width: 50px;
+  height: 5000px;
+  content: "";
+  display: block;
+  top: -500%;
+  background-color: white;
+}
+
+.searchPage .swiper-button-next::after {
+  position: absolute;
+  right: -20px;
+  width: 50px;
+  height: 5000px;
+  content: "";
+  display: block;
+  top: -500%;
+  background-color: white;
+}
+
+.searchPage .swiper-button-next::before {
+  content: "";
+  display: block;
+  background-image: url("../../assets/icons/arrow.png");
+  position: absolute;
+  top: 50%;
+  right: 0;
+  height: 18px;
+  width: 18px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  transform: translateY(-50%);
+  z-index: 4;
+}
+
+.searchPage .swiper-button-prev::before {
+  content: "";
+  display: block;
+  background-image: url("../../assets/icons/arrow.png");
+  position: absolute;
+  top: 50%;
+  left: -10px;
+  height: 18px;
+  width: 18px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  transform: translateY(-50%) rotate(180deg);
+  z-index: 4;
+}
+@media screen and (max-width: 991px) {
+}
+
+@media (max-width: 576px) {
+  .searchPage .headerTitle {
+    margin: 20px 0;
+    font-size: 16px;
+  }
+
+  .headerText {
+    font-size: 16px;
+    margin: 20px 0 0;
+  }
+
+  .searchPageComp form {
+    position: relative;
+    width: 100%;
+  }
+
+  .searchPageComp .search {
+    height: 50px;
+    border: 1px solid rgba(217, 217, 217, 1);
+    border-radius: 15px;
+    overflow: hidden;
+    padding: 0 15px;
+  }
+
+  .searchPageComp .search input {
+    height: 99%;
+    position: absolute;
+    top: 0;
+    right: 10px;
+    left: 60px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+  }
+
+  .searchPageComp .search .searchIcon {
+    position: absolute;
+    top: 50%;
+    left: 15px;
+    transform: translateY(-50%);
+  }
+
+  .searchPageComp .filterButton {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  .searchPageComp {
+    padding-top: 100px !important;
+  }
+  .searchPageComp .courses {
+    padding-top: 0 !important;
+  }
+}

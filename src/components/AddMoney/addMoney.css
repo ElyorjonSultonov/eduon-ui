@@ -1,0 +1,431 @@
+.paymentOne .cardBalans {
+  background: #f6f6f6;
+  border-radius: 15px;
+  padding: 25px 0 25px 25px;
+}
+
+.paymentOne .cardBalans .icon {
+  display: flex;
+  align-items: center;
+}
+
+.paymentOne .cardBalans .icon .img img {
+  max-width: 100%;
+}
+
+.paymentOne .cardBalans .icon .uzs {
+  margin-left: 20px;
+  /* display: flex !important;
+  flex-direction: column !important;
+  align-items: flex-start !important; */
+}
+
+/* .paymentOne .cardBalans .icon .uzs svg{
+  margin-right: 20px !important;
+} */
+
+
+.paymentOne .cardBalans .icon .uzs p {
+  font-family: "SF Pro Text";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: -0.05em;
+  color: #1c1c1c;
+  margin-bottom: 8px;
+}
+
+.paymentOne .cardBalans .icon .uzs h1 {
+  font-family: "SF Pro Text";
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  letter-spacing: -0.05em;
+  color: #006aff;
+}
+
+.paymentOne .savedCart {
+  font-family: "SF Pro Text";
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: -0.05em;
+  color: #1c1c1c;
+  margin: 30px 0;
+}
+
+.paymentOne .fl-row {
+  background-image: url("../../assets/images/cardBg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: all 0.3s linear !important;
+  /* border: 1px solid transparent !important; */
+}
+
+.paymentOne .lifetime .saved h1 {
+  font-family: "SF Pro Text";
+  font-weight: 600;
+  font-size: 24px !important;
+  line-height: 29px;
+  letter-spacing: -0.05em;
+  color: #1c1c1c;
+  margin-bottom: 20px;
+}
+
+.paymentOne .lifetime .saved p {
+  font-family: "SF Pro Text";
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 17px;
+  color: #1c1c1c;
+}
+
+.paymentOne .lifetime .saved p:last-child {
+  font-family: "SF Pro Text";
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  color: #1c1c1c;
+  margin-top: 5px;
+}
+
+.paymentOne .password {
+  width: 100%;
+  position: relative;
+  margin-bottom: 23px;
+}
+
+.paymentOne .password h1 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: right;
+  color: #1c1c1c;
+}
+
+.paymentOne .inputs {
+  font-family: sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  outline: none;
+}
+
+.paymentOne .eye {
+  /* width: 19.57px;
+  height: 16.55px; */
+  position: absolute;
+  top: 21px;
+  right: 25px;
+  color: gray;
+  cursor: pointer;
+  z-index: 5;
+  background-color: transparent !important;
+}
+
+/* .paymentOne .cardRegister form input {
+  width: 60%;
+  display: block;
+  padding: 23px 23px 25px;
+  background: transparent;
+  margin: 44px 0;
+  border: 2px solid #d9d9d9;
+  border-radius: 15px;
+  outline: none;
+  font-size: 20px;
+} */
+
+/* .paymentOne .cardRegister form input::placeholder {
+  font-family: "SF Pro Text";
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #1c1c1c;
+} */
+.paymentOne .cardRegister .fillBtn {
+  font-family: "SF Pro Text";
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #fcfcfc;
+  border: none;
+  outline: none;
+  background: #80b5ff;
+  border-radius: 15px;
+  padding: 16px 32px;
+  cursor: pointer;
+}
+
+/*kurslardagi hisobni toldirish qismi tugadi =========================*/
+.paymentOne .cardBalans {
+  background: #f6f6f6;
+  border-radius: 15px;
+  padding: 25px 0 25px 25px;
+}
+
+.paymentOne .cardBalans .icon {
+  display: flex;
+  align-items: center;
+}
+
+.paymentOne .cardBalans .icon .img img {
+  max-width: 100%;
+}
+
+.paymentOne .cardBalans .icon .uzs {
+  margin-left: 20px;
+}
+
+.paymentOne .cardBalans .icon .uzs p {
+  font-family: "SF Pro Text";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: -0.05em;
+  color: #1c1c1c;
+  margin-bottom: 8px;
+}
+
+.paymentOne .cardBalans .icon .uzs h1 {
+  font-family: "SF Pro Text";
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  letter-spacing: -0.05em;
+  color: #006aff;
+}
+
+.paymentOne .savedCart {
+  font-family: "SF Pro Text";
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: -0.05em;
+  color: #1c1c1c;
+  margin: 30px 0;
+}
+
+.paymentOne .lifetime {
+  /* border: 2px solid #d9d9d9; */
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 0;
+}
+
+.paymentOne .lifetime .img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #bfdaff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.paymentOne .lifetime .imgg {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.paymentOne .lifetime .img img {
+  max-width: 100%;
+}
+
+.paymentOne .lifetime p {
+  font-family: "SF Pro Text";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: -0.05em;
+  color: #999999;
+  text-align: center;
+}
+
+.paymentOne .lifetime .saved p {
+  font-family: "SF Pro Text";
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 17px;
+  color: #1c1c1c;
+}
+
+.paymentOne .lifetime .saved p:last-child {
+  font-family: "SF Pro Text";
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  color: #1c1c1c;
+  margin-top: 5px;
+}
+
+*/
+
+/* .paymentOne .cardRegister form input::placeholder {
+    font-family: "SF Pro Text";
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #1c1c1c;
+  } */
+.paymentOne .cardRegister .fillBtn {
+  font-family: "SF Pro Text";
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #fcfcfc;
+  border: none;
+  outline: none;
+  background: #80b5ff;
+  border-radius: 15px;
+  padding: 16px 32px;
+  cursor: pointer;
+}
+
+.paymentOne .cardRegister h1 {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: -0.05em;
+  color: #1c1c1c;
+  margin-bottom: 44px;
+}
+
+.paymentOne .uzcard {
+  width: 16px;
+  height: 18px;
+  transform: translateY(2px);
+}
+
+.mb-50 {
+  margin-bottom: 50px;
+}
+
+.paymentOne .switchtypo {
+  margin-left: 20px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #1c1c1c;
+}
+
+.paymentOne .fl-row {
+  flex-direction: row !important;
+  justify-content: space-between !important;
+  padding: 30px !important;
+  /* border: none !important; */
+}
+
+.paymentOne .fl-row p {
+  text-align: left;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin: 0;
+}
+
+.paymentOne .wrapper {
+  width: 100%;
+  height: 50px;
+  border-radius: 15px;
+  margin-top: 40px;
+  margin-bottom: 26px;
+  border: 2px solid #d9d9d9;
+  padding: 0 20px;
+  outline: none;
+  display: flex;
+  align-items: center;
+  background-color: white;
+  position: relative;
+}
+
+.paymentOne .alertTitle {
+  position: absolute;
+  top: -10px;
+  left: 14px;
+  background-color: white;
+  padding: 0px 7px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  color: #1c1c1c;
+}
+
+.paymentOne .wrapper input {
+  height: 24px !important;
+  width: 15px !important;
+  text-align: center;
+  border: none;
+  border-bottom: 1.5px solid #1c1c1c;
+  margin-right: 10px !important;
+  font-family: sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0 !important;
+}
+
+.mt-100 {
+  margin-top: 0;
+}
+
+.scrollCards::-webkit-scrollbar {
+  width: 10px;
+  border-radius: 10px;
+}
+
+/* Track */
+.scrollCards::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 10px;
+
+}
+
+/* Handle */
+.scrollCards::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 10px;
+
+}
+
+/* Handle on hover */
+.scrollCards::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.activeSavedCard {
+  /* border: 2px solid #006aff !important; */
+  opacity: .5;
+}
+
+@media (max-width: 1300px) {
+  .lifetime.fl-row {
+    padding: 20px 10px !important;
+  }
+
+  .saved h1 {
+    font-size: 18px !important;
+  }
+
+  /* .mt-100{
+    margin-top: 90px !important;
+  } */
+}

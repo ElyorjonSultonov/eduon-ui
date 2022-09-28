@@ -1,0 +1,53 @@
+.privacy .privTitle {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: -0.05em;
+  color: #1c1c1c;
+  margin: 0px 0 16px 0;
+}
+.privacy .privacy-item {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 15px;
+  background-color: #f6f6f6;
+  padding: 10px 20px;
+  margin: 15px 0;
+}
+.privacy .privacy-item p {
+  font-size: 16px;
+}
+
+.privacy .MuiFormControlLabel-root {
+  margin-right: 0 !important;
+}
+
+@media screen and (max-width: 576px) {
+  .privacy .privTitle {
+    font-size: 16px;
+    line-height: 19px;
+    margin: 0px 0 5px;
+  }
+
+  .privacy .privacy-item {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 15px;
+    background-color: #f6f6f6;
+    padding: 18px 20px;
+    margin: 30px 0;
+  }
+
+  .privacy .btn {
+    width: 100%;
+    border-radius: 10px;
+    font-size: 16px;
+    line-height: 19px;
+    margin-top: 0;
+    height: 51px;
+  }
+}

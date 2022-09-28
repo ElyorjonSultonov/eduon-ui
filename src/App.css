@@ -1,0 +1,58 @@
+.error-messageee {
+    color: #EF2B23;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: left;
+    margin-bottom: 25px;
+    display: flex;
+    align-items: center;
+}
+
+/* .d-none {
+    display: none ;
+} */
+
+.pointer {
+    cursor: pointer !important;
+}
+
+.mb-0 {
+    margin-bottom: 0 !important;
+}
+
+.ml-5 {
+    margin-left: 10px !important;
+}
+
+.btn {
+    transition: background-color 0.2s linear;
+}
+
+.btn:hover {
+    background-color: #006AFF !important;
+}
+
+.hover-underline:hover {
+    text-decoration: underline;
+}
+
+@media (max-width:576px) {
+    .app {
+        padding: 0 10px 100px 10px !important;
+    }
+
+    /* #jvlabelWrap{
+        bottom: 150px !important;
+    } */
+
+}
+
+.x-icon-sm {
+    width: 24px !important;
+    height: 24px !important;
+}
+
+.wrap_a8a4 {
+    bottom: 80px !important;
+}

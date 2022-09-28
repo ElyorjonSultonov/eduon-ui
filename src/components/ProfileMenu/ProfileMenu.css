@@ -1,0 +1,123 @@
+.profileMenu {
+  width: 100%;
+  background: #ffffff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+  border-radius: 15px;
+}
+/* .profileMenu .openProfileMenu {
+  padding: 30px;
+  width: 100%;
+} */
+.profileMenu .openProfileMenu .user {
+  display: flex;
+  align-items: center;
+}
+.profileMenu .openProfileMenu .user h1 {
+  font-family: "SF Pro Text";
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #1c1c1c;
+}
+.profileMenu {
+  width: 352px;
+  background: #ffffff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+  border-radius: 15px;
+}
+.profileMenu .profileImg {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.profileMenu .openProfileMenu {
+  padding: 20px 30px !important;
+  width: 100%;
+}
+
+.profileMenu .openProfileMenu .user {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #d9d9d9;
+  padding-bottom: 22px;
+}
+.profileMenu .openProfileMenu .user h1 {
+  font-family: "SF Pro Text";
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #1c1c1c;
+  margin-left: 20px;
+}
+.profileMenu .openProfileMenu .user h1 span {
+  font-family: "SF Pro Text";
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: -0.02em;
+  color: #999999;
+}
+.profileMenu .openProfileMenu .myAccount {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  border-bottom: 1px solid #d9d9d9;
+  padding: 15px 0;
+}
+.profileMenu .openProfileMenu .myAccount .myAccountTitle h1 {
+  font-family: "SF Pro Text";
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: -0.05em;
+  color: #1c1c1c;
+  margin-top: 10px;
+}
+.profileMenu .openProfileMenu .myAccount .myAccountTitle span {
+  font-family: "SF Pro Text";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: -0.05em;
+  color: #999999;
+}
+.profileMenu .openProfileMenu .myAccount .myAccountImg {
+  background: #006aff;
+  border-radius: 5px;
+  padding: 8px;
+}
+.profileMenu .openProfileMenu .title {
+  border-bottom: 1px solid #d9d9d9;
+}
+.profileMenu .openProfileMenu .title p {
+  font-family: "SF Pro Text";
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: -0.05em;
+  color: #1c1c1c;
+  margin: 15px 0;
+}
+.profileMenu .openProfileMenu .title p span {
+  font-family: "SF Pro Text";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: -0.05em;
+  color: #999999;
+}
+.profileMenu .openProfileMenu .exitProfile {
+  font-family: "SF Pro Text";
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: -0.05em;
+  color: #ef2b23;
+  margin-top: 15px;
+}
+/* cart menu strt */
+.profileMenu .avatar {
+  width: 50px !important;
+  height: 50px !important;
+  border-radius: 50%;
+}

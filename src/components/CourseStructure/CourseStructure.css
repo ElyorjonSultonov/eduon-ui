@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.StructureMain {
+  width: 100%;
+  height: auto;
+}
+
+/* main__title */
+.main__title {
+  width: 100%;
+  height: auto;
+  background-color: #fff;
+  padding-top: 50px;
+}
+
+.main__title p {
+  color: #999999 !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  font-size: 15px !important;
+  line-height: 21px !important;
+}
+
+/* main__title end */
+/* accordion */
+.accordion {
+  width: 100%;
+  height: auto;
+}
+
+/* accordion end */
+/* acc__open */
+.acc__open {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #d9d9d9;
+  padding: 30px 74px 30px 30px;
+  /* display: none; */
+}
+
+.MuiPaper-root::before {
+  height: 0 !important;
+}
+
+.acc__open p {
+  margin: 0 !important;
+  margin-left: 22px !important;
+}
+
+/* acc__open end */
+@media (max-width: 991px) {
+  .StructureMain {
+    width: 100%;
+    height: auto;
+    margin-top: 40px;
+  }
+}
+@media (max-width: 576px) {
+  .acc__open {
+    padding: 15px 20px !important;
+  }
+}

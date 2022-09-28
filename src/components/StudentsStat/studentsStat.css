@@ -1,0 +1,266 @@
+.titles {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: -0.05em;
+  color: #1c1c1c;
+}
+
+.studensStat {
+  padding-bottom: 70px !important;
+}
+
+.mb-24 {
+  margin-bottom: 20px;
+}
+
+.bg-light {
+  background-color: #f6f6f6;
+  border-radius: 15px;
+}
+
+.rowGrid .world {
+  width: 100%;
+}
+.rowGrid .map svg {
+  width: 100% !important;
+}
+
+.rowGrid .dropdownSelect {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.rowGrid .dropdownSelect p {
+  margin-right: 15px;
+}
+
+.rowGrid .main .item {
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.d-none {
+  display: none ;
+}
+
+.rowGrid .main .item,
+.rowGrid .main .item span {
+  display: flex;
+  align-items: center;
+}
+
+.rowGrid .main .item span {
+  line-height: auto !important;
+}
+
+.rowGrid .main .item img {
+  width: 24px;
+  height: 24px;
+}
+
+.rowGrid .main .item .country {
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: -0.05em;
+  color: #1c1c1c;
+  margin-left: 15px;
+}
+
+.rowGrid .main .item .t-light {
+  color: #999999;
+  margin-right: 80px;
+}
+
+.rowGrid .main .item .percent {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: -0.05em;
+  color: #1c1c1c;
+}
+
+.css-ahj2mt-MuiTypography-root {
+  line-height: auto;
+}
+
+.mt-50 {
+  margin-top: 50px;
+}
+
+.rectangle {
+  width: 100%;
+  height: auto;
+  padding: 30px;
+  border-radius: 15px;
+  border: 1px solid #d9d9d9;
+}
+
+.rowGrid.mt-50 .rectangle img {
+  width: 100%;
+}
+
+.rowGrid.mt-50 .rectangle .indicators {
+  display: flex;
+  align-items: center;
+  width: 80%;
+  margin: 20px auto 15px;
+}
+
+.rowGrid.mt-50 .rectangle .indicators .color-box {
+  width: 24px;
+  height: 24px;
+  border-radius: 5px;
+  margin-right: 20px;
+}
+
+.rowGrid.mt-50 .rectangle .rowGrid .indicators.color-box {
+  width: 24px;
+  height: 24px;
+  border-radius: 5px;
+  margin-right: 20px;
+}
+
+.col-6 {
+  overflow-x: hidden !important;
+}
+
+.rowGrid.mt-50 .rectangle .indicators .percent {
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 19px;
+  letter-spacing: -0.05em;
+  color: #1c1c1c;
+  margin-right: 20px;
+}
+
+.rowGrid.mt-50 .rectangle .indicators .gender {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 19px;
+  letter-spacing: -0.05em;
+  color: #999999;
+}
+
+.vertical-center {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.rowGrid .referral .link-box {
+  height: 100px;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  padding: 25px;
+  margin-bottom: 30px;
+  background-color: #f6f6f6;
+}
+
+.rowGrid .referral .link-box .icon-box {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #bfdaff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 20px;
+}
+
+.rowGrid .referral .link-box .icon-box svg {
+  width: 24px;
+  height: 24px;
+}
+
+.rowGrid .referral .link-box p {
+  font-weight: 600;
+  font-size: 24px;
+  letter-spacing: -0.05em;
+  color: #006aff;
+}
+
+.rowGrid .referral .ps {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: -0.05em;
+  color: #999999;
+}
+
+.mr-10 {
+  margin-right: 10px !important;
+}
+
+/* .h-385 {
+    max-height: 385px !important;
+} */
+
+.h-100p {
+  height: 100% !important;
+  display: none;
+}
+
+.h-337 {
+  height: 337px !important;
+  display: none;
+}
+
+.p-30 {
+  padding: 30px;
+  display: none;
+}
+
+@media screen and (max-width: 1300px) {
+  .rowGrid .dropdownSelect {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+
+  .rowGrid .main .item,
+  .rowGrid .main .item span {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+
+  .h-337 {
+    height: auto !important;
+  }
+
+  .rowGrid .lgMargin {
+    margin-bottom: 30px;
+  }
+
+  .rectangle .lgMedia {
+    display: flex;
+    align-items: center;
+  }
+
+  .rectangle .lgMedia .ps {
+    margin-left: 42px;
+    margin-top: -20px;
+  }
+
+  .mb-lg-30 {
+    margin-bottom: 30px !important;
+  }
+
+  .h-100p {
+    height: auto;
+  }
+
+  .h-337 {
+    height: auto !important;
+  }
+  .h-385 {
+    height: auto !important;
+  }
+  .rowGrid .map svg {
+    width: 80% !important;
+  }
+}
+

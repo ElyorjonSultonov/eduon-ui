@@ -1,0 +1,16 @@
+.css-1h9z7r5-MuiButtonBase-root-MuiTab-root {
+  padding: 0 !important;
+}
+
+.speaker .courses {
+  padding-top: 60px;
+}
+
+/* .css-19kzrtu {
+    padding: 24px;
+} */
+@media (max-width: 576px) {
+  .speaker .courses {
+    padding-top: 80px;
+  }
+}

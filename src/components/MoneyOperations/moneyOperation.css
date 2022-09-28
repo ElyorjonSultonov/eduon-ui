@@ -1,0 +1,18 @@
+.moneyOperations .mt-100 {
+  margin-top: 0 !important;
+}
+.moneyOperations {
+  padding-top: 10px !important;
+}
+
+@media (max-width: 991px) {
+  .moneyOperations {
+    padding-top: 70px !important;
+  }
+}
+
+/* @media (max-width:    576px) {
+  .moneyOperations {
+    padding-top: 100px !important;
+  }
+} */

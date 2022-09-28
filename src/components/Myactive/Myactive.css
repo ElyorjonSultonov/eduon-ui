@@ -1,0 +1,158 @@
+.myActive {
+  padding-top: 20px;
+}
+.myActive .ActiveInstallations {
+  font-family: "SF Pro Text";
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 33px;
+  color: #1c1c1c;
+  margin-bottom: 30px;
+}
+.myActive .cards {
+  max-width: 524px;
+  padding: 21px 25px;
+  background: #f6f6f6;
+  border-radius: 15px;
+}
+.myActive .cards .windows {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.myActive .cards .windows .title {
+  display: flex;
+  align-items: center;
+}
+.myActive .cards .windows .title .img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #bfdaff;
+  margin-right: 20px;
+}
+.myActive .cards .windows .title .img img {
+  max-width: 100%;
+}
+
+.myActive .cards .windows .title .windows10 h1 {
+  font-family: "SF Pro Text";
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: -0.05em;
+  color: #1c1c1c;
+}
+.myActive .cards .windows .title .windows10 p {
+  font-family: "SF Pro Text";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: -0.05em;
+  color: #999999;
+  margin-top: 10px;
+}
+.myActive .cards .windows .current {
+  font-family: "SF Pro Text";
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: -0.05em;
+  color: #0cc14a;
+}
+.myActive .cards .windows .delete {
+  font-family: "SF Pro Text";
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.05em;
+  color: #ef2b23;
+}
+
+.myActive .cards .windows .delete img {
+  max-width: 100%;
+  margin-right: 15px;
+}
+.myActive .allDevices {
+  padding: 16px 32px;
+  max-width: 339px;
+  background: #f6f6f6;
+  border-radius: 15px;
+  margin-top: 30px;
+}
+.myActive .allDevices h2 {
+  font-family: "SF Pro Text";
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #1c1c1c;
+}
+@media screen and (max-width: 991px) {
+  .myActive {
+    padding-top: 80px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .myActive {
+    padding-top: 100px;
+  }
+  .myActive .ActiveInstallations {
+    font-size: 16px;
+    line-height: 19px;
+    margin-bottom: 20px;
+  }
+  .myActive .cards .windows .title .img {
+    margin-right: 10px;
+  }
+  .myActive .cards {
+    max-width: 524px;
+    padding: 15px;
+    background: #f6f6f6;
+    border-radius: 10px;
+    margin: 10px 0;
+  }
+
+  .myActive .cards .windows .title .windows10 h1 {
+    font-size: 14px;
+    line-height: 19px;
+  }
+  .myActive .cards .windows .title .windows10 p {
+    font-size: 12px;
+    line-height: 17px;
+    margin-top: 5px;
+  }
+  .myActive .cards .windows .current {
+    font-size: 14px;
+    line-height: 17px;
+  }
+  .myActive .allDevices {
+    padding: 16px 32px;
+    max-width: 576px;
+    border-radius: 10px;
+    margin-top: 20px !important;
+    font-size: 16px;
+    line-height: 19px;
+    width: 100% !important;
+    text-align: center;
+  }
+  .mb-lg-30 {
+    margin-bottom: 0px !important;
+  }
+  .myActive .allDevices h2 {
+    font-size: 16px;
+    line-height: 19px;
+  }
+  .myActive .cards .windows .delete img {
+    margin-right: 2px !important;
+    width: 18px;
+    margin-top: -3px;
+  }
+  .myActive .cards .windows .delete {
+    font-size: 14px;
+  }
+}

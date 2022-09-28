@@ -1,0 +1,38 @@
+
+.searchPageComp form {
+    position: relative;
+    width: 100%;
+  }
+
+  .searchPageComp .search {
+    height: 50px;
+    border: 1px solid rgba(217, 217, 217, 1);
+    border-radius: 15px;
+    overflow: hidden;
+    padding: 0 15px;
+  }
+  
+  .searchPageComp .search input {
+    height: 99%;
+    position: absolute;
+    top: 0;
+    right: 10px;
+    left: 60px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+  }
+  
+  .searchPageComp .search .searchIcon {
+    position: absolute;
+    top: 50%;
+    left: 15px;
+    transform: translateY(-50%);
+  }
+  .searchPageComp .filterButton{
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  

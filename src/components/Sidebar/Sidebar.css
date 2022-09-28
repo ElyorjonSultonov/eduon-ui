@@ -1,0 +1,301 @@
+.sidebar {
+  position: fixed;
+  left: 0;
+  top: 54px;
+  bottom: 0;
+  border-right: 1px solid #d9d9d9;
+  z-index: 99;
+  /* transition: all 0.6s linear; */
+  background-color: white;
+  overflow-x: hidden;
+  /* transition: all 0.8s linear; */
+}
+
+.w-240 {
+  width: 240px;
+  transition: all 0.7s ease;
+}
+
+.w-100 {
+  width: 63px;
+  transition: all 0.3s linear;
+  padding: 0 7px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sidebar .divider {
+  width: 100%;
+  height: 1px;
+  background-color: #d9d9d9;
+}
+
+.w-240 .pl-40 {
+  padding-left:20px !important;
+  /* transition: all 0.1s linear; */
+}
+
+.w-100 .pl-40 {
+  padding-left: 0 !important;
+  /* transition: all 0.1s linear; */
+}
+
+.w-240 .d-flex {
+  display: flex;
+}
+
+
+.w-100 li,
+.w-100 .top div,
+.w-100 .top p {
+  text-align: center;
+  font-family: "SF Pro Text";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px !important;
+  line-height: 19px;
+  /* position: absolute; */
+}
+.w-240 .top p {
+  position: absolute;
+  left: 55px !important;
+  white-space: nowrap;
+}
+
+.sidebar .top {
+  padding: 32px 0;
+}
+
+.w-240 .top div {
+  margin-bottom: 12px;
+}
+
+.w-100 .top div {
+  margin-bottom: 0;
+  cursor: pointer;
+}
+
+.sidebar ul {
+  padding: 22px 0;
+}
+
+.w-100 ul {
+  width: 100%;
+}
+
+.w-240 ul li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 24px;
+  cursor: pointer;
+  /* transition: all 0.3s linear; */
+
+}
+
+.w-240 ul li:last-child {
+  margin-bottom: 0 !important;
+}
+
+.w-240 ul li .icon {
+  margin-right: 0px !important;
+
+}
+
+.w-100 ul li:last-child p {
+  margin-bottom: 0;
+}
+
+.w-100 ul li .icon {
+  margin-right: 0;
+}
+
+.w-100 ul li {
+  margin-bottom: 24px;
+  justify-content: center;
+}
+
+
+.w-100 ul li:last-child {
+  margin-bottom: 0;
+}
+
+
+
+.w-240 ul li p,
+.w-240 .top div p {
+  font-family: "SF Pro Text", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.5px !important;
+  color: #1c1c1c;
+  /* transition: all 0.3s linear; */
+  cursor: pointer;
+}
+
+.w-240 ul li p {
+  position: absolute;
+  left: 55px;
+  /* letter-spacing: 0px !important; */
+  /* transition: 0.4s linear; */
+  white-space: nowrap;
+}
+
+.w-100 ul li p {
+  font-family: "SF Pro Text", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 12px;
+  text-align: center;
+  /* margin-bottom: 24px; */
+  /* transition: all 0.2s linear; */
+  cursor: pointer;
+  white-space: nowrap;
+  position: absolute;
+  /* visibility: hidden; */
+  /* height: 0; */
+  transition: none !important;
+  /* margin-bottom: -20px; */
+  /* right: -200%; */
+  transition-delay: 0.6s !important;
+  transition-property: display !important;
+  display: none !important; 
+}
+
+.w-100 .top div p {
+  display: none;
+  /* transition: all 0.3s linear; */
+}
+
+.w-240 .top .summa {
+  font-family: "SF Pro Text", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: -0.05em;
+  color: #1c1c1c;
+  /* transition: all 0.1s linear; */
+  cursor: pointer;
+}
+
+.w-100 .top .summa {
+  display: none;
+}
+
+
+.w-100 .top .d-flex.align-center{
+  justify-content: center;
+}
+
+.sidebar .containerr {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.w-100 .containerr {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.copyRight {
+  font-family: "SF Pro Text";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #1c1c1c;
+  padding: 0 0 40px 40px;
+  white-space: nowrap;
+}
+
+.w-100 .copyRight {
+  display: none;
+}
+
+.w-100 .courseUploadButton {
+  display: none;
+}
+
+.courseUploadButton {
+  width: 181px;
+  height: 40px;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  border: none;
+  outline: none;
+  background-color: #bfdaff;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #1c1c1c;
+  position: absolute;
+  left: 28px;
+}
+
+.courseUploadButton svg {
+  margin-right: 10px;
+}
+
+.text-align-center {
+  width: 100%;
+  text-align: center;
+}
+
+.sidebar .active {
+  color: #006aff;
+}
+
+.sidebar .favourite .favCount {
+  position: relative;
+}
+
+.w-100 .count {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #80B5FF;
+  color: white;
+  font-size: 11px;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: -8px;
+  right: -8px;
+}
+
+.w-240 .count {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #80B5FF;
+  color: white;
+  font-size: 11px;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: -8px;
+  left: 13px;
+}
+.w-240 .d-24-none{
+  display: none;
+}
+
+@media (max-width:576px) {
+  .sidebar{
+    display: none;
+  }
+}

@@ -1,0 +1,288 @@
+.shoppingCourses {
+  padding-top: 20px;
+}
+.shoppingCourses h1 {
+  font-family: "SF Pro Text";
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 43px;
+  color: #1c1c1c;
+}
+
+.shoppingCourses .hisob p {
+  margin: 10px 0 20px 0;
+}
+
+.nowrap {
+  flex-wrap: nowrap !important;
+}
+
+.shoppingCourses .carta {
+  display: flex;
+  align-items: center;
+  background: #f6f6f6;
+  border-radius: 15px;
+  padding: 20px;
+}
+
+.shoppingCourses .carta h1 {
+  font-family: "SF Pro Text";
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 29px;
+  letter-spacing: -0.05em;
+  color: #006aff;
+  margin-left: 20px;
+}
+
+.shoppingCourses .cartaBtn {
+  background: #80b5ff;
+  border-radius: 15px;
+  padding: 20px 0;
+  width: 100%;
+  font-family: "SF Pro Text";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #fcfcfc;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: all 0.3s linear;
+  margin-top: 30px;
+}
+
+.shoppingCourses .cartaBtn:hover {
+  background: #006aff;
+}
+
+.shoppingCourses .purchaseSummary {
+  border: 1px solid #d9d9d9;
+  border-radius: 15px;
+  padding: 20px 30px;
+}
+
+.shoppingCourses .purchaseSummary .summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.shoppingCourses .purchaseSummary .summary {
+  border-bottom: 1px solid #d9d9d9;
+  padding-bottom: 18px;
+  margin-bottom: 18px;
+}
+
+.shoppingCourses .purchaseSummary .summary:last-child {
+  border-bottom: none !important;
+  padding-bottom: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+.shoppingCourses .purchaseSummary .summary h1 {
+  font-family: "SF Pro Text";
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 29px;
+  color: #1c1c1c;
+}
+
+.shoppingCourses .purchaseSummary .summary .summaryImg {
+  display: flex;
+  align-items: center;
+}
+
+.shoppingCourses .purchaseSummary .summary .summaryImg img {
+  width: 80px;
+  /* height: 50px; */
+  aspect-ratio: 16/9;
+  /* border-radius: 15px; */
+  margin-right: 20px;
+  max-width: 100%;
+}
+
+.shoppingCourses .purchaseSummary .summary .summaryImg h1 {
+  font-family: "SF Pro Text";
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #1c1c1c;
+}
+
+.shoppingCourses .shoppingTotoal {
+  border: 1px solid #d9d9d9;
+  border-radius: 15px;
+  padding: 30px;
+  margin-top: 48px;
+}
+
+.shoppingCourses .shoppingTotoal h2 {
+  font-family: "SF Pro Text";
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  color: #1c1c1c;
+}
+
+.shoppingCourses .shoppingTotoal h1 {
+  font-family: "SF Pro Text";
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 38px;
+  color: #1c1c1c;
+  margin: 10px 0 20px;
+}
+
+.shoppingCourses .shoppingTotoal button {
+  font-family: "SF Pro Text";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #fcfcfc;
+  background: #006aff;
+  border-radius: 15px;
+  border: none;
+  width: 100%;
+  padding: 15px 0;
+}
+
+.justify-lg-end {
+  justify-content: flex-end;
+}
+
+@media (max-width: 1300px) {
+  .rowGrid.nowrap {
+    flex-wrap: wrap !important;
+  }
+
+  .shoppingCourses .shoppingTotoal {
+    margin-top: 20px;
+  }
+
+  .shoppingCourses .purchaseSummary .summary h1 {
+    font-size: 20px;
+  }
+
+  .shoppingCourses .carta h1 {
+    font-size: 20px;
+    margin-left: 0 !important;
+  }
+
+  .shoppingCourses .shoppingTotoal h1 {
+    font-size: 22px !important;
+  }
+  .shoppingCourses .carta {
+    padding: 20px 15px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .shoppingCourses .carta h1 {
+    font-size: 16px;
+  }
+
+  .shoppingCourses .shoppingTotoal h1 {
+    font-size: 20px !important;
+  }
+}
+
+@media (max-width: 991px) {
+  .shoppingCourses {
+    padding-top: 80px;
+  }
+}
+@media (max-width: 576px) {
+  .shoppingCourses {
+    padding-top: 100px;
+  }
+
+  .shoppingCourses h1 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  .shoppingCourses .hisob p {
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+  }
+
+  .shoppingCourses .carta .iconsMoney {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(191, 218, 255, 1);
+  }
+
+  .shoppingCourses .carta h1 {
+    margin-left: 10px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+  }
+
+  .shoppingCourses .cartaBtn {
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    padding: 12px 0px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+
+  .shoppingCourses .purchaseSummary {
+    padding: 20px;
+    background: #f6f6f6;
+    border-radius: 10px;
+  }
+
+  .shoppingCourses .purchaseSummary .summary {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .shoppingCourses .purchaseSummary .summary h1 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 19px;
+    margin-top: 10px;
+  }
+
+  .shoppingCourses .purchaseSummary .summary .summaryImg h1 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+  }
+
+  .shoppingCourses .shoppingTotoal {
+    margin: 0;
+    padding: 20px;
+  }
+
+  .shoppingCourses .shoppingTotoal h2 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+  }
+
+  .shoppingCourses .shoppingTotoal h1 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 19px;
+  }
+
+  .shoppingCourses .shoppingTotoal button {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    padding: 12px 0px;
+    border-radius: 10px;
+  }
+}

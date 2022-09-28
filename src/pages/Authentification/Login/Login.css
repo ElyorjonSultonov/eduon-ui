@@ -1,0 +1,437 @@
+.Login {
+  max-width: 100%;
+  overflow-x: hidden;
+  margin-top: 100px;
+  height: auto;
+}
+
+.Login .container {
+  padding-top: 70px;
+  max-width: 699px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.Login .container .login-title {
+  font-family: "SF Pro Text", sans-serif;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 38px;
+  background-color: gradi;
+  color: #1c1c1c;
+  margin-bottom: 64px;
+}
+
+.Login .container .password {
+  width: 100%;
+  position: relative;
+  margin-bottom: 23px;
+}
+.Login .container-setNewPass svg{
+  min-width: 20px !important;
+}
+
+.Login .container-setNewPass .passwordFio {
+  width: 100% !important;
+  position: relative;
+}
+
+.Login .container-setNewPass 
+.Login .container .passwordFio {
+  width: 50%;
+  position: relative;
+  margin-bottom: 10px;
+}
+
+#fioForm .passwordFio {
+  width: 100% !important;
+}
+
+.Login .container .passwordFio:first-child {
+  margin-right: 30px;
+}
+
+.Login .container .password .eye {
+  /* width: 19.57px;
+  height: 16.55px; */
+  position: absolute;
+  top: 21px;
+  right: 25px;
+  color: gray;
+  cursor: pointer;
+  z-index: 5;
+  background-color: white;
+}
+
+.Login .container .passwordFio .eye {
+  /* width: 19.57px;
+  height: 16.55px; */
+  position: absolute;
+  top: 21px;
+  right: 25px;
+  background-color: white;
+  color: gray;
+  cursor: pointer;
+  z-index: 5;
+}
+
+.Login .container .inputs {
+  font-family: sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  outline: none;
+}
+
+.Login .container .technicSights {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 32px;
+}
+
+.Login .container .technicSights .forgot {
+  font-family: sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.Login .container .btn:hover {
+  background-color: #006aff;
+  color: white;
+}
+
+.Login .container .box_line {
+  display: flex;
+  align-items: center;
+  margin-bottom: 44px;
+}
+
+.Login .container .box_line .line {
+  width: 50%;
+  height: 2px;
+  border-radius: 5px;
+  background-color: #d9d9d9;
+}
+
+.Login .container .box_line p {
+  font-family: sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #999999;
+  margin: 0 10px;
+}
+
+.Login .container .mediaLogin {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 44px;
+}
+
+.Login .container .mediaLogin .media-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #999999;
+  border-radius: 15px;
+  padding: 17px 33px;
+  transition: all 0.2s linear;
+}
+
+.Login .container .mediaLogin .media-item:hover {
+  cursor: pointer;
+  border: 1px solid #6e6e6e;
+}
+
+.Login .container .mediaLogin .media-item p {
+  margin: 0 0 0 20px;
+  font-family: sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.Login .container .sign-up {
+  font-family: sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: -0.01em;
+  color: #999999;
+  margin-bottom: 25px;
+}
+
+.Login .container .sign-up span {
+  font-family: sans-serif;
+  font-weight: 500;
+  text-decoration: underline;
+  color: #006aff;
+  cursor: pointer;
+}
+
+.Login .container .phone-number {
+  text-align: left;
+  font-family: sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #1c1c1c;
+  margin-bottom: 34px;
+}
+
+.Verify .wrapper {
+  width: 100%;
+  height: 70px;
+  border-radius: 15px;
+  margin-bottom: 26px;
+  border: 2px solid #d9d9d9;
+  padding: 0 25px;
+  outline: none;
+  display: flex;
+  align-items: center;
+}
+
+.Verify .wrapper input {
+  height: 100%;
+  width: 100%;
+  border: none;
+  outline: none;
+  letter-spacing: 12px;
+}
+
+.Login #fioForm .d-flex {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.genderTitle {
+  text-align: left;
+  margin-bottom: 0;
+  font-family: sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  color: #1c1c1c;
+  margin: 15px 0;
+}
+
+.fio .gender-box {
+  margin-bottom: 10px !important;
+}
+
+.gender-box {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 35px;
+}
+
+.mr-30 {
+  margin-right: 30px;
+}
+
+.gender-box label {
+  width: 50%;
+  border: 2px solid #d9d9d9;
+  border-radius: 15px;
+  text-align: center;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "SF Pro Text", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #1c1c1c;
+  cursor: pointer;
+}
+
+.gender-box input:checked + label {
+  border: 2px solid #006aff;
+}
+
+.gender-box .d-none {
+  visibility: hidden;
+  display: none !important;
+}
+
+.PhoneInputCountry {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.PhoneInputCountryIconImg {
+  width: 30px !important;
+  height: 30px !important;
+}
+
+.PhoneInputCountrySelect {
+  width: 40px;
+}
+
+.phoneInputBox {
+  height: 70px;
+  width: 100%;
+  border-radius: 15px;
+  border: 2px solid #d9d9d9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.flag-dropdown,
+.form-control {
+  border: none !important;
+  background-color: white !important;
+}
+
+.flag-dropdown {
+  left: 20px;
+}
+
+.form-control {
+  margin-left: -290px !important;
+  height: 100% !important;
+  font-family: "SF Pro Text";
+  font-style: normal;
+  font-weight: 500 !important;
+  font-size: 20px !important;
+  line-height: 24px !important;
+  color: #1c1c1c;
+}
+
+.react-tel-input {
+  height: 100% !important;
+  border-radius: 15px !important;
+  text-align: right !important;
+}
+.react-tel-input .form-control {
+  width: 100% !important;
+  padding-left: 80px !important;
+  border-radius: 15px !important;
+}
+
+@media (max-width: 576px) {
+  .Login .container .login-title {
+    font-size: 24px;
+    line-height: 29px;
+    margin-bottom: 50px;
+  }
+  .Login {
+    max-width: 100%;
+    overflow-x: hidden;
+    margin-top: 70px;
+    height: auto;
+  }
+
+  .Login .container {
+    padding-top: 50px;
+    max-width: 522px;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .Login .MuiOutlinedInput-notchedOutline,
+  .Login .MuiOutlinedInput-input,
+  .Login .phoneInputBox {
+    height: 59px !important;
+  }
+
+  .Login .react-tel-input .form-control {
+    font-size: 16px !important;
+    width: 200px;
+    padding-left: 0;
+    background-color: transparent;
+  }
+
+  .Login .MuiInputLabel-root {
+    top: -1.5px !important;
+    font-size: 16px !important;
+  }
+
+  .Login .container .password .eye,
+  .Login .container .passwordFio .eye {
+    top: 14.5px;
+  }
+
+  .react-tel-input .selected-flag {
+    padding: 0 !important;
+  }
+
+  .Login .technicSights {
+    display: block !important;
+  }
+
+  .Login .container .technicSights .forgot {
+    text-align: left;
+    margin-top: 15px;
+  }
+
+  .Login .css-w47vjg-MuiButtonBase-root-MuiButton-root {
+    height: 51px;
+    font-size: 16px;
+    line-height: 19px;
+    border-radius: 10px;
+  }
+
+  .Login .css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root {
+    margin-bottom: 4px;
+  }
+
+  .Verify .wrapper {
+    height: 59px;
+  }
+
+  .fio.Login .container .inputs {
+    margin-bottom: 0px;
+  }
+
+  .fio .gender-box label {
+    height: 59px !important;
+    font-size: 16px !important;
+  }
+  .fio .mb-0 {
+    margin-bottom: 0 !important;
+  }
+  .Login .container .passwordFio {
+    margin-bottom: 0;
+  }
+  .sc-bczRLJ.eARTLT .sc-gsnTZi svg {
+    width: 40px !important;
+  }
+  .sc-bczRLJ.eARTLT .sc-gsnTZi span {
+    font-size: 14px !important;
+    text-align: left;
+    max-width: 70%;
+  }
+  .MuiFormControlLabel-root.MuiFormControlLabel-labelPlacementEnd.css-17t4fjg-MuiFormControlLabel-root
+    p {
+    font-size: 12px !important;
+    text-align: left;
+  }
+  .Login .continueBtn {
+    width: 100%;
+    padding: 16px 0 !important;
+    font-size: 16px;
+    line-height: 19px;
+    height: 51px !important;
+  }
+  .Login .container-setNewPass svg + span{
+    font-size: 12px;
+    text-align:left ;
+  }
+  .Login .container-setNewPass .passwordFio{
+    margin-bottom: 20px !important;
+  }
+}

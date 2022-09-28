@@ -1,0 +1,166 @@
+.izohlar {
+  margin-top: 30px;
+  padding: 0 19px;
+}
+
+.izohlar .izohTitle {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 36px;
+  color: #1c1c1c;
+  margin-bottom: 24px;
+}
+
+.izohlar .izohTexts .izohP {
+  padding-left: 80px;
+  margin-top: 0 !important;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25px;
+  color: #1c1c1c;
+  max-width: 80%;
+  width: 80%;
+  word-wrap: break-word;
+}
+
+.izohlar .izohTexts .names {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.izohlar .izohTexts .names .nameText {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.izohlar .izohTexts .names .nameText img {
+  width: 60px;
+  aspect-ratio: 1/1;
+  border-radius: 15px;
+  margin-right: 20px;
+}
+
+.izohlar .izohTexts .names .nameText h3 {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  color: #1c1c1c;
+}
+
+.izohlar .izohTexts .names p {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  color: #999999;
+  opacity: 0.72;
+  margin-top: 0 !important;
+}
+
+@media (max-width: 1300px) {
+  .izohlar .izohTexts .names .nameText h3 {
+    margin-left: 0;
+    font-size: 20px;
+  }
+
+  .izohlar .izohTexts .names p {
+    font-weight: 300;
+    font-size: 14px !important;
+    line-height: 19px;
+    color: #999999;
+    opacity: 0.72;
+    margin-top: 0 !important;
+  }
+}
+
+@media (max-width: 576px) {
+  .izohlar .izohTexts .names {
+    display: block;
+  }
+
+  .izohlar .izohTexts .names .nameText h3 {
+    font-size: 18px;
+  }
+
+  .izohlar .izohTexts .names .nameText img {
+    width: 40px;
+  }
+
+  #courseAbout .editBtn svg {
+    width: 16px;
+    height: 16px;
+  }
+
+  #courseAbout .editBtn svg:first-child {
+    margin-right: 10px !important;
+  }
+
+  .mb-sm-0 {
+    margin-bottom: 0 !important;
+  }
+
+  /* .izohlar .izohTexts {
+    display: flex;
+    justify-content: space-between;
+  } */
+  .izohlar .izohTexts .izohP {
+    max-width: 90%;
+    padding-left: 0;
+    font-size: 14px !important;
+  }
+
+  .izohlar .commentTexts {
+    display: flex;
+    justify-content: space-between !important;
+  }
+
+  .izohlar {
+    padding: 0;
+    margin-top: 10px;
+  }
+
+  .izohlar .MuiButton-root {
+    width: 100%;
+    height: 51px;
+    font-size: 16px;
+  }
+
+  .izohlar .MuiButton-root:hover {
+    background-color: #006aff;
+  }
+
+  .izohlar .izohTexts .names {
+    margin-top: 10px;
+  }
+
+  .izohlar .izohTitle {
+    font-size: 18px;
+    margin-bottom: 0;
+  }
+
+  .izohlar textarea {
+    height: 200px;
+  }
+
+  #spikers .spiker_title {
+    margin: 0px 0 30px;
+    font-size: 18px;
+  }
+
+  .izohlar .sendBtn {
+    border-radius: 10px;
+    margin-bottom: 0;
+  }
+}

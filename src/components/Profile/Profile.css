@@ -1,0 +1,292 @@
+.profile_container .css-1h9z7r5-MuiButtonBase-root-MuiTab-root {
+  padding: 0 !important;
+  margin-right: 20px !important;
+}
+
+.css-9wz69r-MuiModal-root-MuiPopover-root .MuiPaper-root{
+  margin-top: 12px !important;
+}
+.profile_container .css-19kzrtu {
+  padding: 24px 24px 24px 0px !important;
+}
+.profile_container {
+  padding-top: 0px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #1c1c1c;
+  overflow-x: hidden;
+}
+
+.profile_links {
+  display: flex;
+}
+
+.profile_links a:first-child {
+  color: #006aff;
+}
+
+.profile_links a {
+  align-items: center;
+  font-size: 20px;
+  line-height: 150%;
+  color: #999999;
+  margin-right: 20px;
+}
+
+.container_body {
+  display: flex;
+}
+
+.container_body .right_container {
+  padding-left: 30px;
+}
+
+.left_container p {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: #1c1c1c;
+}
+
+.left_container .mt-30 {
+  margin-top: 30px;
+}
+
+.right_container .overallInfo {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: -0.05em;
+  color: #1c1c1c;
+}
+
+.right_container p {
+  padding-bottom: 44px;
+}
+
+.right_container .gender-box {
+  align-items: flex-start;
+}
+
+.right_container .genderTitle {
+  padding-bottom: 0 !important;
+}
+
+.right_container .genderBtn {
+  height: 66px !important;
+  margin-top: 0 !important;
+}
+
+.right_container .comments {
+  position: relative;
+}
+
+.right_container .comments .titleComments {
+  position: absolute;
+  top: -9px;
+  left: 8px;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  margin-bottom: 0 !important;
+  padding-bottom: 0 !important;
+  background-color: white;
+  padding: 0 6px;
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.4375em;
+  letter-spacing: 0.00938em;
+}
+
+.right_container .comments .aboutMe {
+  width: 100%;
+  min-height: 500px;
+  height: 100%;
+  border: 2px solid #d9d9d9;
+  border-radius: 15px;
+  padding: 23px 25px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #1c1c1c;
+  margin-top: 0 !important;
+  margin-bottom: 44px;
+}
+
+.profile_picture {
+  width: 100% !important;
+  aspect-ratio: 1/1;
+  object-fit: cover !important;
+}
+
+.left_container .uploadImg {
+  position: relative;
+  text-align: center;
+}
+
+.left_container .uploadImg label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  text-align: center;
+  cursor: pointer;
+}
+
+.left_container .uploadImg input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  visibility: hidden;
+  z-index: 0;
+}
+
+.left_container .aboutMe {
+  position: relative;
+}
+
+.profile_container .css-1h9z7r5-MuiButtonBase-root-MuiTab-root {
+  height: 55px !important;
+}
+@media screen and (max-width: 991px) {
+  .profile_container {
+    padding-top: 60px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .profile_container {
+    padding-top: 60px;
+  }
+
+  .container_body button {
+    width: 100% !important;
+    font-size: 16px;
+    line-height: 19px;
+  }
+
+  .left_container .mt-30 {
+    margin-top: 30px;
+    border: 1px solid #d9d9d9;
+    width: 100% !important;
+    padding: 8px 0;
+    border-radius: 10px;
+  }
+
+  .container_body .right_container {
+    padding-left: 0px;
+    width: 100%;
+  }
+
+  .container_body .right_container .overallInfo {
+    margin-top: 0 !important;
+  }
+
+  .container_body .right_container .common {
+    margin-top: 90px;
+  }
+
+  .container_body .f-direction {
+    display: flex;
+    flex-direction: column;
+    /* margin-bottom: 20px !important; */
+  }
+
+  .container_body .f-direction .inputs {
+    width: 100%;
+    height: 55px !important;
+  }
+
+  /* .container_body .f-direction .mt-30 {
+    margin-top: 34px;
+  } */
+
+  /* .container_body .f-direction .mt-34 {
+    margin-top: -10px;
+  } */
+  .left_container .uploadImg {
+    margin-bottom: 20px !important;
+  }
+  .left_container .uploadImg label {
+    position: unset !important;
+    /* top: 0;
+    left: 0;
+    z-index: 1;
+    text-align: center;
+    cursor: pointer;
+    width: 100%; */
+  }
+
+  .container_body .col-16 {
+    padding: 0px;
+  }
+
+  .container_body .col-12 {
+    padding: 0px;
+  }
+
+  /* .container_body .d-flex .country {
+    /* margin: -15px !important; */
+  /* margin-top: -20px; */
+  /* } */
+
+  .right_container .gender-box {
+    align-items: flex-start;
+    width: 100%;
+  }
+
+  .right_container
+    #fioForm
+    .inputs
+    .css-1rah10q-MuiFormControl-root-MuiTextField-root {
+    margin-bottom: 30px !important;
+  }
+
+  .right_container
+    #fioForm
+    .inputs
+    .css-vxqin4-MuiFormControl-root-MuiTextField-root {
+    margin-right: 30px;
+    margin-bottom: 34px !important;
+  }
+
+  .right_container #fioForm .inputs .MuiOutlinedInput-notchedOutline {
+    height: 55px !important;
+  }
+
+  .right_container #fioForm .inputs .MuiOutlinedInput-input {
+    height: 55px !important;
+    font-size: 16px;
+  }
+
+  .right_container
+    #fioForm
+    .inputs
+    .css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root
+    .MuiOutlinedInput-notchedOutline {
+    height: 55px !important;
+  }
+  .right_container #fioForm .inputs .MuiInputLabel-root {
+    top: -3px !important;
+  }
+  .right_container .genderBtn {
+    height: 55px !important;
+    font-size: 16px;
+  }
+  .right_container #fioForm .MuiFormControl-root {
+    margin-bottom: 20px !important;
+  }
+
+  .right_container .comments .aboutMe {
+    min-height: 300px;
+    min-width: 100% !important;
+    max-width: 100% !important;
+  }
+  .right_container .comments .aboutMe {
+    margin-bottom: 20px !important;
+  }
+}

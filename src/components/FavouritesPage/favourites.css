@@ -1,0 +1,12 @@
+/* .favoritesPage {
+    padding-top: 100px;
+} */
+@media (max-width:576px) {
+    .favoritesPage .rowGrid{
+        margin: 0;
+    }
+    .favoritesPage {
+        overflow-x: hidden;
+        padding-top: 100px !important;
+    }
+}

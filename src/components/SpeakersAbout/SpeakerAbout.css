@@ -1,0 +1,302 @@
+.SpeakerAbout {
+  padding-top: 20px;
+}
+
+.SpeakerAbout h3 {
+  font-family: "SF Pro Text";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 29px;
+  color: #999999;
+}
+
+.SpeakerAbout .avatar img,
+.SpeakerAbout .avatar .avatarka {
+  width: 262px !important;
+  height: 262px !important;
+}
+
+.SpeakerAbout h1 {
+  font-family: "SF Pro Text";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 43px;
+  color: #1c1c1c;
+}
+
+.SpeakerAbout .AvInfos span,
+.SpeakerAbout .LogInfo span {
+  font-family: "SF Pro Text";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: #006aff;
+}
+
+.SpeakerAbout p {
+  font-family: "SF Pro Text";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #1c1c1c;
+}
+
+.LogInfo p {
+  margin-top: 20px;
+}
+
+.LogInfo h1 {
+  margin-top: 20px;
+}
+
+.headrow .avatar {
+  display: flex;
+  border-right: 1px solid #d9d9d9;
+}
+
+.headrow .avatar .LogInfo {
+  display: grid;
+  grid-template-columns: auto;
+  align-items: center;
+  padding-left: 50px;
+}
+
+/* aboutMe */
+.aboutMe {
+  margin: 20px 0;
+}
+.aboutMe .col-24{
+  padding: 0 !important;
+}
+.aboutMe .col-24 .h3{
+  margin-bottom: 25px !important;
+}
+
+.aboutMeInfo {
+  padding-top: 30px;
+}
+.UserCards .css-19kzrtu {
+  padding: 24px 0 !important;
+}
+.UserCards .FavoriteCourses{
+  padding-top: 0 !important;
+}
+.UserCards .rowGrid{
+  margin: 0 !important;
+}
+
+/* aboutMe end */
+/* AvInfos col-12 */
+.AvInfos {
+  padding: 50px 0 0 132px;
+}
+
+.AvInfos p {
+  font-family: "SF Pro Text";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  color: #1c1c1c;
+}
+
+/* end */
+
+.infos {
+  display: flex;
+  /* align-items: center; */
+}
+
+/* left */
+.infos .left {
+  width: 100%;
+  height: auto;
+}
+
+.left .top .course {
+  display: flex;
+}
+
+.course p {
+  margin-left: 20px;
+}
+
+.top h3 {
+  margin-top: 12px;
+}
+
+.top span {
+  font-family: "SF Pro Text";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 28px;
+  line-height: 33px;
+  color: #006aff;
+}
+
+.left .bottom {
+  margin-top: 31px;
+}
+
+.left .bottom .favorite {
+  display: flex;
+}
+
+.favorite p {
+  margin-left: 20px;
+}
+
+.bottom h3 {
+  margin-top: 12px;
+
+}
+
+.bottom span {
+  font-family: "SF Pro Text";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 28px;
+  line-height: 33px;
+  color: #006aff;
+}
+
+/* left end */
+/* right */
+
+.infos .right {
+  width: 100%;
+  height: auto;
+}
+
+
+.right .top .teacher {
+  display: flex;
+}
+
+.teacher p {
+  margin-left: 20px;
+}
+
+.top h3 {
+  margin-top: 12px;
+}
+
+.top span {
+  font-family: "SF Pro Text";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 28px;
+  line-height: 33px;
+  color: #006aff;
+}
+
+.right .bottom {
+  margin-top: 31px;
+}
+
+.right .bottom .messages {
+  display: flex;
+}
+
+.messages p {
+  margin-left: 20px;
+}
+
+.bottom h3 {
+  margin-top: 12px;
+
+}
+
+.bottom span {
+  font-family: "SF Pro Text";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 28px;
+  line-height: 33px;
+  color: #006aff;
+}
+
+/* right end */
+
+@media (max-width:1300px) {
+
+  .SpeakerAbout .avatar img,
+  .SpeakerAbout .avatar .avatarka {
+    width: 150px !important;
+    height: 150px !important;
+  }
+
+  .SpeakerAbout .avatar {
+    align-items: center !important;
+    padding: 50px 0 0;
+  }
+
+  .AvInfos {
+    padding: 50px 0 0 40px;
+  }
+
+  .headrow .avatar .LogInfo {
+    padding-left: 30px;
+  }
+}
+
+@media (max-width:576px) {
+  .SpeakerAbout {
+    padding-top: 100px;
+    padding-bottom: 30px;
+  }
+
+  .SpeakerAbout .avatar {
+    display: block;
+    width: 100%;
+    border-right: 0 !important;
+  }
+
+  .SpeakerAbout .container .headrow .avatar img,
+  .SpeakerAbout .container .headrow .avatar .avatarka {
+    width: 100% !important;
+    height: 260px !important;
+    margin-bottom: 20px;
+  }
+
+  .headrow .avatar .avInfo,
+  .LogInfo {
+    padding-left: 0 !important;
+  }
+
+  .SpeakerAbout h1 {
+    font-size: 24px;
+    margin-top: 0;
+  }
+
+  .SpeakerAbout p {
+    margin-top: 0;
+  }
+
+  .AvInfos {
+    padding: 0 15px;
+    margin-top: 30px;
+  }
+
+  .infos img {
+    object-fit: contain;
+  }
+
+  .AvInfos .smMedia {
+    font-size: 16px;
+    line-height: 19px;
+    margin-left: 12px;
+  }
+
+  .AvInfos .smMarginLeft {
+    margin-left: 35px;
+  }
+
+
+}

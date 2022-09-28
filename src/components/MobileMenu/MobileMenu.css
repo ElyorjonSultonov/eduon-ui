@@ -1,0 +1,158 @@
+.mobileMenu {
+    z-index: 999;
+    position: fixed;
+    top: 0;
+    /* left: 0; */
+    bottom: 0;
+    /* right: 0; */
+    width: 100vw;
+    /* height: 100vh; */
+    background-color: white;
+    padding: 30px 24px !important;
+    margin-bottom: 70px;
+    transition: all 0.2s linear;
+}
+
+.left-0 {
+    left: 0;
+    overflow-y: scroll !important;
+}
+
+.left-100percent {
+    left: -100%;
+}
+
+.mobileMenu .header button {
+    padding: 10px 15px;
+    border-radius: 10px;
+    background-color: #006aff;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+    outline: none;
+}
+
+.mobileMenu .header svg {
+    width: 30px;
+    height: 30px;
+}
+
+.mobileMenu .categories li:first-child {
+    margin-top: 25px;
+}
+
+.mobileMenu .categories li {
+    font-size: 16px;
+    font-weight: 700;
+    color: #1c1c1c;
+    margin: 15px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.mobileMenu hr {
+    margin: 15px 0;
+}
+
+.mobileMenu .bottom li {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.mobileMenu .copyRight {
+
+    text-align: center;
+    margin: 30px 0;
+    padding: 0;
+}
+
+.mobileMenu .p-relative {
+    height: 100%;
+}
+
+.mobileMenu .submenu {
+    z-index: 999;
+    position: fixed;
+    top: 0;
+    /* left: 0; */
+    bottom: 0;
+    /* right: 0; */
+    width: 100vw;
+    /* height: 100vh; */
+    background-color: white;
+    margin-bottom: 70px;
+    transition: all 0.2s linear;
+}
+
+.mobileMenu .submenu ul {
+    padding: 0 24px !important;
+}
+
+.mobileMenu .submenu .top {
+    width: 100%;
+    padding: 25px 10px;
+    background-color: #F6F6F6;
+}
+
+.mobileMenu h3 {
+    margin-top: 0 !important;
+}
+
+.right-0 {
+    right: 0;
+}
+
+.right-100percent {
+    right: -100%;
+}
+
+.mobileMenu .courseUploadButton {
+    position: static;
+    margin: 0;
+    width: 100%;
+}
+
+.mobileMenu li {
+    margin: 15px 0;
+}
+
+.mobileMenu li svg {
+    margin-right: 10px;
+}
+
+.mobileMenu .myAccount {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    border-bottom: 1px solid #d9d9d9;
+    padding: 15px 0;
+}
+
+.mobileMenu .myAccount .myAccountTitle h1 {
+    font-family: "SF Pro Text";
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: -0.05em;
+    color: #1c1c1c;
+    margin-top: 10px;
+}
+
+.mobileMenu .myAccount .myAccountTitle span {
+    font-family: "SF Pro Text";
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: -0.05em;
+    color: #999999;
+}
+
+.mobileMenu .myAccount .myAccountImg {
+    background: #006aff;
+    border-radius: 5px;
+    /* padding: 8px; */
+    width: 50px;
+}

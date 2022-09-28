@@ -1,0 +1,45 @@
+#courseAbout .video_title p {
+  margin-top: 30px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: #1c1c1c;
+}
+
+
+
+#courseAbout .video_title ul:nth-of-type(1) {
+  border-bottom: 2px solid rgba(17, 17, 17, 0.06);
+  padding-bottom: 30px;
+  width: 95%;
+}
+
+#courseAbout .video_title ul .paragraf {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  color: #1c1c1c;
+  margin-bottom: 30px;
+}
+
+#courseAbout .video_title ul li {
+  margin-top: 15px;
+}
+
+#courseAbout .video_title ul li a {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #999999;
+}
+
+#courseAbout .video_title ul li a svg {
+  margin-right: 12px;
+}
+
+@media (max-width:576px) {
+  #courseAbout .video_title,
+  #courseAbout .fundamentals_title {
+    padding: 0 15px;
+  }
+}

@@ -1,0 +1,64 @@
+.navbarSm {
+  width: 100vw;
+  overflow-x: hidden;
+  background: #ffffff;
+  padding: 5px 18px;
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 111;
+  border-bottom: 1px solid #d9d9d9;
+}
+
+.navbarSm .navBody {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbarSm .navBody .logo img {
+  max-width: 100%;
+  width: 100%;
+}
+
+.navbarSm .profileMenu {
+  position: fixed !important;
+  width: 100%;
+  height: 100vh;
+  background: #ffffff;
+  transition: all 0.3s linear;
+}
+
+.navbarSm .openProfileMenu {
+  padding: 15px !important;
+  padding-top: 20px !important;
+}
+
+.navbarSm .show {
+  left: 0;
+  top: 0;
+}
+
+.navbarSm .hide {
+  right: -576px !important;
+  height: 100vh;
+  left: 576px;
+  top: 0;
+  display: none;
+}
+
+.navbarSm .avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: none !important;
+  position: relative;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 991px) {
+  .navbarSm {
+    display: inline-block;
+  }
+}

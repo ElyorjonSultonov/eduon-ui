@@ -1,0 +1,449 @@
+.paymentOne .cardBalans {
+  background: #f6f6f6;
+  border-radius: 15px;
+  padding: 25px 0 25px 25px;
+}
+
+.paymentOne .cardBalans .icon {
+  display: flex;
+  align-items: center;
+}
+
+.paymentOne .cardBalans .icon .img img {
+  max-width: 100%;
+}
+
+.paymentOne .cardBalans .icon .uzs {
+  margin-left: 20px;
+}
+
+.paymentOne .cardBalans .icon .uzs p {
+  font-family: "SF Pro Text";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: -0.05em;
+  color: #1c1c1c;
+  margin-bottom: 8px;
+}
+
+.paymentOne .cardBalans .icon .uzs h1 {
+  font-family: "SF Pro Text";
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  letter-spacing: -0.05em;
+  color: #006aff;
+}
+
+.paymentOne .savedCart {
+  font-family: "SF Pro Text";
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: -0.05em;
+  color: #1c1c1c;
+  margin: 30px 0;
+}
+
+.paymentOne .fl-row {
+  background-image: url("../../assets/images/cardBg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px;
+}
+
+.paymentOne .lifetime .saved h1 {
+  font-family: "SF Pro Text";
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  letter-spacing: -0.05em;
+  color: #1c1c1c;
+  margin-bottom: 20px;
+}
+
+.paymentOne .lifetime .saved p {
+  font-family: "SF Pro Text";
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 17px;
+  color: #1c1c1c;
+}
+
+.paymentOne .lifetime .saved p:last-child {
+  font-family: "SF Pro Text";
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  color: #1c1c1c;
+  margin-top: 5px;
+}
+
+.paymentOne .password {
+  width: 100%;
+  position: relative;
+  margin-bottom: 23px;
+}
+
+.paymentOne .password h1 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: right;
+  color: #1c1c1c;
+}
+
+.paymentOne .inputs {
+  font-family: sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  outline: none;
+}
+
+.paymentOne .eye {
+  /* width: 19.57px;
+    height: 16.55px; */
+  position: absolute;
+  top: 21px;
+  right: 25px;
+  background-color: white;
+  color: gray;
+  cursor: pointer;
+  z-index: 5;
+}
+
+.paymentOne .alert {
+  max-width: 400px;
+  height: 230px;
+  padding: 40px;
+  position: fixed;
+  top: 130px;
+  z-index: 99;
+  animation: alertFalse 0.5s linear;
+  right: -100%;
+}
+
+.paymentOne .animation {
+  position: fixed;
+  top: 130px;
+  z-index: 99;
+  animation: alert 0.5s linear;
+  right: 30px;
+}
+
+@keyframes alert {
+  0% {
+    right: -100%;
+  }
+
+  100% {
+    right: 30px;
+  }
+}
+
+@keyframes alertFalse {
+  0% {
+    right: 30px;
+    right: -100%;
+  }
+
+  100% {
+    right: -100%;
+  }
+}
+
+/* .paymentOne .cardRegister form input {
+    width: 60%;
+    display: block;
+    padding: 23px 23px 25px;
+    background: transparent;
+    margin: 44px 0;
+    border: 2px solid #d9d9d9;
+    border-radius: 15px;
+    outline: none;
+    font-size: 20px;
+  } */
+
+/* .paymentOne .cardRegister form input::placeholder {
+    font-family: "SF Pro Text";
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #1c1c1c;
+  } */
+.paymentOne .cardRegister .fillBtn {
+  font-family: "SF Pro Text";
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #fcfcfc;
+  border: none;
+  outline: none;
+  background: #80b5ff;
+  border-radius: 15px;
+  padding: 16px 32px;
+  cursor: pointer;
+}
+
+/*kurslardagi hisobni toldirish qismi tugadi =========================*/
+.paymentOne .cardBalans {
+  border-radius: 10px !important;
+  padding: 25px 0 25px 25px !important;
+  margin-top: 5px;
+}
+
+.paymentOne .cardBalans .icon {
+  display: flex;
+  align-items: center;
+}
+
+.paymentOne .cardBalans .icon .img img {
+  max-width: 100%;
+}
+
+.paymentOne .cardBalans .icon .uzs {
+  margin-left: 0;
+  display: flex !important;
+  align-items: center !important;
+}
+
+.paymentOne .cardBalans .icon .uzs .smSvg {
+  margin-left: 20px !important;
+}
+
+.paymentOne .cardBalans .icon .uzs p {
+  font-family: "SF Pro Text";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: -0.05em;
+  color: #1c1c1c;
+  margin-bottom: 8px;
+}
+
+.paymentOne .cardBalans .icon .uzs h1 {
+  font-family: "SF Pro Text";
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  letter-spacing: -0.05em;
+  color: #006aff;
+}
+
+.paymentOne .savedCart {
+  font-family: "SF Pro Text";
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: -0.05em;
+  color: #1c1c1c;
+  margin: 0px 0 30px;
+  /* display: none; */
+}
+
+.paymentOne .savedCart:first-child {
+  margin-top: 30px;
+}
+
+.paymentOne .lifetime {
+  /* border: 2px solid #d9d9d9; */
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 0;
+}
+
+.paymentOne .lifetime .img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #bfdaff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.paymentOne .lifetime .imgg {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.paymentOne .lifetime .img img {
+  max-width: 100%;
+}
+
+.paymentOne .lifetime p {
+  font-family: "SF Pro Text";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: -0.05em;
+  color: #999999;
+  text-align: center;
+}
+
+.paymentOne .lifetime .saved p {
+  font-family: "SF Pro Text";
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 17px;
+  color: #1c1c1c;
+}
+
+.paymentOne .lifetime .saved p:last-child {
+  font-family: "SF Pro Text";
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  color: #1c1c1c;
+  margin-top: 5px;
+}
+
+.paymentOne .cardRegister .fillBtn {
+  font-family: "SF Pro Text";
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #fcfcfc;
+  border: none;
+  outline: none;
+  background: #80b5ff;
+  border-radius: 15px;
+  padding: 16px 32px;
+  cursor: pointer;
+}
+
+.paymentOne .cardRegister h1 {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: -0.05em;
+  color: #1c1c1c;
+  margin-bottom: 44px;
+}
+
+.paymentOne .uzcard {
+  width: 30px;
+  height: 40px;
+  transform: translateY(-7px);
+}
+
+.mb-50 {
+  margin-bottom: 50px;
+  display: none;
+}
+
+.paymentOne .switchtypo {
+  margin-left: 20px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #1c1c1c;
+}
+
+.paymentOne .fl-row {
+  flex-direction: row !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+  padding: 30px !important;
+  /* border: none !important; */
+  /* display: none; */
+}
+
+.paymentOne .fl-row p {
+  text-align: left;
+}
+
+@media screen and (max-width: 576px) {
+  .paymentOne {
+    padding-bottom: 60px;
+  }
+
+  .paymentOne .lifetime .saved h1 {
+    font-size: 18px;
+    line-height: 21px;
+    margin-bottom: 10px;
+  }
+
+  .paymentOne .cardBalans {
+    background: #f6f6f6;
+    border-radius: 10px !important;
+    padding: 15px 0 15px 20px !important;
+  }
+
+  .paymentOne .cardBalans .icon .uzs {
+    margin-left: 0px !important;
+  }
+
+  .paymentOne .cardBalans .icon .uzs p {
+    font-size: 14px;
+    line-height: 17px;
+    margin-bottom: 5px;
+  }
+
+  .paymentOne .cardBalans .icon .uzs h1 {
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  .paymentOne .savedCart {
+    font-size: 16px;
+    line-height: 19px;
+    margin: 5px 0 !important;
+  }
+
+  .paymentOne .fl-row {
+    flex-direction: row !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    padding: 15px 20px !important;
+    border: none !important;
+  }
+
+  .paymentOne .lifetime .saved p {
+    font-size: 12px;
+    line-height: 14px;
+  }
+
+  .paymentOne .lifetime .saved p:last-child {
+    font-size: 14px;
+    line-height: 17px;
+  }
+
+  .paymentOne .cardRegister .smPay {
+    font-size: 16px;
+    line-height: 19px;
+    margin: 20px 0;
+  }
+
+  .paymentOne .cardRegister .fillBtn {
+    width: 100%;
+    font-size: 16px;
+    line-height: 19px;
+    border-radius: 10px;
+  }
+
+  .paymentOne .lifetime {
+    border: 2px solid #d9d9d9;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 0;
+    margin-top: 20px;
+  }
+}

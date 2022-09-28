@@ -1,0 +1,275 @@
+.CourseOpened {
+  overflow-x: hidden;
+  padding: 120px 20px 0 20px;
+}
+.CourseOpened .boxes_line {
+  display: flex;
+  margin-bottom: 40px;
+}
+.headerRow h1 {
+  font-family: "SF Pro Text";
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: -0.05em;
+  color: #1c1c1c;
+}
+
+.CourseOpened .box {
+  display: flex;
+  align-items: center;
+  /* width: 385px; */
+  height: 100px;
+  background: #f6f6f6;
+  border-radius: 15px;
+  /* margin-top: 50px;     */
+}
+.CourseOpened .box_item .img {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 25px;
+  border-radius: 50%;
+  background-color: #bfdaff;
+}
+.CourseOpened .box_item .img svg {
+  width: 24px;
+  height: 24px;
+}
+
+.CourseOpened .box_item {
+  display: flex;
+  align-items: center;
+  padding: 0 25px;
+}
+
+.CourseOpened .box_p h2 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  letter-spacing: -0statistic 0.05em;
+  color: #006aff;
+  margin-top: 8px;
+}
+/* promoCode start new */
+
+.promoCode {
+  border: 1px solid #ededed;
+  border-radius: 15px;
+  padding: 30px;
+}
+.promoCode h1 {
+  font-family: "SF Pro Text";
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: -0.05em;
+  color: #1c1c1c;
+  padding-left: 15px;
+}
+.promoCode .boxs {
+  background: #bfdaff;
+  border-radius: 15px;
+  padding: 20px 20px 0 30px;
+  margin-top: 30px;
+}
+.promoCode .boxs .promoName {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.promoCode .boxs .promoName h3 {
+  font-family: "SF Pro Text";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: -0.05em;
+  color: #1c1c1c;
+}
+.promoCode .boxs .promoDiscount {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+/* .promoCode .boxs .promoDiscount .promoProsent{
+  margin-right: 2px;
+} */
+.promoCode .boxs .promoDiscount .promoProsent h1 {
+  font-family: "SF Pro Text";
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  letter-spacing: -0.05em;
+  color: #006aff;
+  margin-left: -19px;
+}
+.promoCode .boxs .promoDiscount .promoProsent .limits {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.promoCode .boxs .promoDiscount .promoProsent .limits h3 {
+  font-family: "SF Pro Text";
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: -0.05em;
+  color: #1c1c1c;
+  margin: 20px 0 10px;
+}
+.promoCode .boxs .promoDiscount .promoProsent .limits h2 {
+  font-family: "SF Pro Text";
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: -0.05em;
+  color: #006aff;
+}
+.promoCode .boxs .promoDiscount .proImg {
+  max-width: 100%;
+  width: 100%;
+  margin-bottom: -4px;
+}
+
+/* promoCode new end */
+
+/* grapth */
+.grapth_rectangle {
+  width: 100%;
+  border: 1px solid #ededed;
+  border-radius: 15px;
+  padding: 30px;
+  margin-top: 50px;
+}
+.grapth_rectangle h1 {
+  font-family: "SF Pro Text";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 50px;
+  letter-spacing: -0.05em;
+  color: #1c1c1c;
+  margin-left: 17px;
+}
+.soni {
+  font-family: "SF Pro Text";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #1c1c1c;
+  margin-left: 17px;
+  margin-bottom: 20px;
+}
+/* grapth end */
+@media screen and (max-width: 1300px) {
+  .promoCode .boxs .promoName {
+    margin-bottom: 7px;
+  }
+  .promoCode .boxs .promoName h3 {
+    font-size: 14px;
+    line-height: 18px;
+  }
+  .promoCode .boxs .promoDiscount .promoProsent h1 {
+    font-size: 22px;
+    line-height: 27px;
+    color: #006aff;
+  }
+  .promoCode .boxs .promoDiscount .promoProsent .limits h3 {
+    font-size: 13px;
+    line-height: 16px;
+    letter-spacing: -0.05em;
+    color: #1c1c1c;
+    margin: 18px 0 9px;
+  }
+  .promoCode .boxs .promoDiscount .promoProsent .limits h2 {
+    font-size: 14px;
+    line-height: 18px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .CourseOpened {
+    overflow-x: hidden;
+    padding: 120px 16px 0 16px;
+  }
+  .CourseOpened .boxes_line .col-6 {
+    padding: 0 !important;
+  }
+  .boxes_line .mb-lg-30 {
+    margin-bottom: 0 !important ;
+  }
+  .headerRow .col-24 {
+    padding: 0px !important;
+  }
+  .headerRow h1 {
+    font-size: 16px;
+    line-height: 19px;
+  }
+  .headerRow .smMediaFIlter {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start !important;
+  }
+  .headerRow .smMediaFIlter h1 {
+    font-size: 20px !important;
+  }
+
+  .promoCode {
+    border: 1px solid #ededed;
+    border-radius: 10px;
+    padding: 5px;
+  }
+
+  .headerRow .filter {
+    width: 100%;
+    height: 38px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid #d9d9d9;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 10px;
+  }
+  .headerRow .filter svg {
+    margin-right: 13px;
+  }
+  .CourseOpened .box_item {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+  }
+  .CourseOpened .box_p p {
+    font-size: 14px;
+    line-height: 17px;
+  }
+  .CourseOpened .box_p h2 {
+    font-size: 20px;
+    line-height: 24px;
+    margin-top: 5px;
+  }
+  .CourseOpened .box {
+    display: flex;
+    align-items: center;
+    height: 90px;
+    border-radius: 10px;
+    margin: 10px 0;
+  }
+  .promoCode .boxs .promoDiscount .promoProsent h1 {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .promoCode .boxs .promoDiscount .promoProsent .limits h3 {
+    font-size: 12px;
+    line-height: 14px;
+    margin: 20px 0 5px;
+  }
+  .promoCode .boxs {
+    border-radius: 10px;
+    margin-top: 20px;
+  }
+}
